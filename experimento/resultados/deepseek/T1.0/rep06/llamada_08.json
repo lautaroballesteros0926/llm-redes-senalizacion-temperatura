@@ -1,0 +1,176 @@
+{
+  "timestamp_utc": "2026-10-26T01:55:39.980741+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 8,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\"interactions\": [{\"source_node\": \"RPS6KB1\", \"target_node\": \"EIF4E\", \"action\": \"stimulation\"}, {\"source_node\": \"PDPK1\", \"target_node\": \"AKT1\", \"action\": \"stimulation\"}, {\"source_node\": \"PDPK1\", \"target_node\": \"RPS6KB1\", \"action\": \"stimulation\"}, {\"source_node\": \"Phenylephrine\", \"target_node\": \"ADRA1A\", \"action\": \"stimulation\"}, {\"source_node\": \"Phenylephrine\", \"target_node\": \"ADRA1B\", \"action\": \"stimulation\"}, {\"source_node\": \"Phenylephrine\", \"target_node\": \"ADRA1D\", \"action\": \"stimulation\"}, {\"source_node\": \"PIK3C2A\", \"target_node\": \"AKT1\", \"action\": \"stimulation\"}, {\"source_node\": \"PIK3C2B\", \"target_node\": \"AKT2\", \"action\": \"stimulation\"}, {\"source_node\": \"PIK3C2G\", \"target_node\": \"AKT3\", \"action\": \"stimulation\"}, {\"source_node\": \"PIK3C3\", \"target_node\": \"MTOR\", \"action\": \"stimulation\"}, {\"source_node\": \"PIK3CA\", \"target_node\": \"PDPK1\", \"action\": \"stimulation\"}, {\"source_node\": \"PIK3CB\", \"target_node\": \"AKT1\", \"action\": \"stimulation\"}, {\"source_node\": \"PIK3CD\", \"target_node\": \"AKT2\", \"action\": \"stimulation\"}, {\"source_node\": \"PIK3CG\", \"target_node\": \"AKT3\", \"action\": \"stimulation\"}, {\"source_node\": \"PRKACA\", \"target_node\": \"CREB1\", \"action\": \"stimulation\"}, {\"source_node\": \"PRKACA\", \"target_node\": \"MAP3K1\", \"action\": \"inhibition\"}, {\"source_node\": \"PRKACB\", \"target_node\": \"CREB1\", \"action\": \"stimulation\"}, {\"source_node\": \"PRKACG\", \"target_node\": \"CREB1\", \"action\": \"stimulation\"}, {\"source_node\": \"PRKCA\", \"target_node\": \"RAF1\", \"action\": \"stimulation\"}, {\"source_node\": \"PRKCA\", \"target_node\": \"MAP3K1\", \"action\": \"stimulation\"}, {\"source_node\": \"PRKCB\", \"target_node\": \"RAF1\", \"action\": \"stimulation\"}, {\"source_node\": \"PRKCD\", \"target_node\": \"MAPK8\", \"action\": \"stimulation\"}, {\"source_node\": \"PRKCE\", \"target_node\": \"MAP2K1\", \"action\": \"stimulation\"}, {\"source_node\": \"PRKCG\", \"target_node\": \"RAF1\", \"action\": \"stimulation\"}, {\"source_node\": \"PRKCH\", \"target_node\": \"MAPK14\", \"action\": \"stimulation\"}, {\"source_node\": \"PRKCI\", \"target_node\": \"MAP3K7\", \"action\": \"stimulation\"}, {\"source_node\": \"PRKCQ\", \"target_node\": \"IKBKB\", \"action\": \"stimulation\"}, {\"source_node\": \"PRKCZ\", \"target_node\": \"AKT1\", \"action\": \"stimulation\"}]}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 737,
+    "prompt_tokens": 6825,
+    "total_tokens": 7562,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 6656
+    },
+    "prompt_cache_hit_tokens": 6656,
+    "prompt_cache_miss_tokens": 169
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 28,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 3.22,
+  "interacciones": [
+    {
+      "source_node": "RPS6KB1",
+      "target_node": "EIF4E",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PDPK1",
+      "target_node": "AKT1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PDPK1",
+      "target_node": "RPS6KB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Phenylephrine",
+      "target_node": "ADRA1A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Phenylephrine",
+      "target_node": "ADRA1B",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Phenylephrine",
+      "target_node": "ADRA1D",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3C2A",
+      "target_node": "AKT1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3C2B",
+      "target_node": "AKT2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3C2G",
+      "target_node": "AKT3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3C3",
+      "target_node": "MTOR",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3CA",
+      "target_node": "PDPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3CB",
+      "target_node": "AKT1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3CD",
+      "target_node": "AKT2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3CG",
+      "target_node": "AKT3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKACA",
+      "target_node": "CREB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKACA",
+      "target_node": "MAP3K1",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "PRKACB",
+      "target_node": "CREB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKACG",
+      "target_node": "CREB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKCA",
+      "target_node": "RAF1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKCA",
+      "target_node": "MAP3K1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKCB",
+      "target_node": "RAF1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKCD",
+      "target_node": "MAPK8",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKCE",
+      "target_node": "MAP2K1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKCG",
+      "target_node": "RAF1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKCH",
+      "target_node": "MAPK14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKCI",
+      "target_node": "MAP3K7",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKCQ",
+      "target_node": "IKBKB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKCZ",
+      "target_node": "AKT1",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

@@ -1,0 +1,176 @@
+{
+  "timestamp_utc": "2026-10-26T01:55:46.198564+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 10,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\"interactions\": [{\"source_node\": \"STAT1\", \"target_node\": \"FOS\", \"action\": \"stimulation\"}, {\"source_node\": \"STAT1\", \"target_node\": \"JUN\", \"action\": \"stimulation\"}, {\"source_node\": \"STAT3\", \"target_node\": \"FOS\", \"action\": \"stimulation\"}, {\"source_node\": \"STAT3\", \"target_node\": \"NPPB\", \"action\": \"stimulation\"}, {\"source_node\": \"Stretch\", \"target_node\": \"AGT\", \"action\": \"stimulation\"}, {\"source_node\": \"Stretch\", \"target_node\": \"EDN1\", \"action\": \"stimulation\"}, {\"source_node\": \"Stretch\", \"target_node\": \"NPPA\", \"action\": \"stimulation\"}, {\"source_node\": \"Stretch\", \"target_node\": \"NPPB\", \"action\": \"stimulation\"}, {\"source_node\": \"MAP3K7\", \"target_node\": \"MAP2K4\", \"action\": \"stimulation\"}, {\"source_node\": \"MAP3K7\", \"target_node\": \"IKBKB\", \"action\": \"stimulation\"}, {\"source_node\": \"TGFB1\", \"target_node\": \"TGFBR3\", \"action\": \"stimulation\"}, {\"source_node\": \"TGFB3\", \"target_node\": \"TGFBR3\", \"action\": \"stimulation\"}, {\"source_node\": \"TGFBR3\", \"target_node\": \"MAP3K1\", \"action\": \"stimulation\"}, {\"source_node\": \"TNF\", \"target_node\": \"TNFRSF1A\", \"action\": \"stimulation\"}, {\"source_node\": \"TNF\", \"target_node\": \"TNFRSF1B\", \"action\": \"stimulation\"}, {\"source_node\": \"TNFRSF10A\", \"target_node\": \"MAPK8\", \"action\": \"stimulation\"}, {\"source_node\": \"TNFRSF10B\", \"target_node\": \"MAPK8\", \"action\": \"stimulation\"}, {\"source_node\": \"TNFRSF11A\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"}, {\"source_node\": \"TNFRSF14\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"}, {\"source_node\": \"TNFRSF1A\", \"target_node\": \"IKBKB\", \"action\": \"stimulation\"}, {\"source_node\": \"TNFRSF1A\", \"target_node\": \"MAPK8\", \"action\": \"stimulation\"}, {\"source_node\": \"TNFRSF1B\", \"target_node\": \"IKBKB\", \"action\": \"stimulation\"}, {\"source_node\": \"TNFRSF21\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"}, {\"source_node\": \"TNFRSF25\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"}, {\"source_node\": \"TNFRSF4\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"}, {\"source_node\": \"TNFRSF6\", \"target_node\": \"MAPK8\", \"action\": \"stimulation\"}, {\"source_node\": \"TNFRSF8\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"}, {\"source_node\": \"TNFRSF9\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"}]}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 746,
+    "prompt_tokens": 8331,
+    "total_tokens": 9077,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 8192
+    },
+    "prompt_cache_hit_tokens": 8192,
+    "prompt_cache_miss_tokens": 139
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 28,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 3.24,
+  "interacciones": [
+    {
+      "source_node": "STAT1",
+      "target_node": "FOS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "STAT1",
+      "target_node": "JUN",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "STAT3",
+      "target_node": "FOS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "STAT3",
+      "target_node": "NPPB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Stretch",
+      "target_node": "AGT",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Stretch",
+      "target_node": "EDN1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Stretch",
+      "target_node": "NPPA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Stretch",
+      "target_node": "NPPB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K7",
+      "target_node": "MAP2K4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K7",
+      "target_node": "IKBKB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TGFB1",
+      "target_node": "TGFBR3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TGFB3",
+      "target_node": "TGFBR3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TGFBR3",
+      "target_node": "MAP3K1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNF",
+      "target_node": "TNFRSF1A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNF",
+      "target_node": "TNFRSF1B",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF10A",
+      "target_node": "MAPK8",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF10B",
+      "target_node": "MAPK8",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF11A",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF14",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF1A",
+      "target_node": "IKBKB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF1A",
+      "target_node": "MAPK8",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF1B",
+      "target_node": "IKBKB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF21",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF25",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF4",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF6",
+      "target_node": "MAPK8",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF8",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF9",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

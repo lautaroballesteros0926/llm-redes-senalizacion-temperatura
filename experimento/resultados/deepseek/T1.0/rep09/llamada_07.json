@@ -1,0 +1,201 @@
+{
+  "timestamp_utc": "2026-10-26T01:58:07.735436+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 7,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\n  \"interactions\": [\n    {\n      \"source_node\": \"NPR1\",\n      \"target_node\": \"GUCY1A3\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"NPR1\",\n      \"target_node\": \"GUCY1A2\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"NPR1\",\n      \"target_node\": \"GUCY1B3\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"LIFR\",\n      \"target_node\": \"JAK1\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"LIFR\",\n      \"target_node\": \"JAK2\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"LIFR\",\n      \"target_node\": \"STAT3\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"IL6ST\",\n      \"target_node\": \"JAK1\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"IL6ST\",\n      \"target_node\": \"JAK2\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"IL6ST\",\n      \"target_node\": \"STAT3\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"GNAS\",\n      \"target_node\": \"ADCY5\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"GNAS\",\n      \"target_node\": \"ADCY6\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"GNAS\",\n      \"target_node\": \"ADCY2\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"GNAS\",\n      \"target_node\": \"ADCY8\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"GSK3B\",\n      \"target_node\": \"NFAT5\",\n      \"action\": \"inhibition\"\n    },\n    {\n      \"source_node\": \"GSK3B\",\n      \"target_node\": \"MEF2A\",\n      \"action\": \"inhibition\"\n    },\n    {\n      \"source_node\": \"GSK3B\",\n      \"target_node\": \"MEF2C\",\n      \"action\": \"inhibition\"\n    },\n    {\n      \"source_node\": \"HDAC4\",\n      \"target_node\": \"MEF2A\",\n      \"action\": \"inhibition\"\n    },\n    {\n      \"source_node\": \"HDAC4\",\n      \"target_node\": \"MEF2C\",\n      \"action\": \"inhibition\"\n    },\n    {\n      \"source_node\": \"HDAC4\",\n      \"target_node\": \"MEF2D\",\n      \"action\": \"inhibition\"\n    },\n    {\n      \"source_node\": \"HDAC5\",\n      \"target_node\": \"MEF2A\",\n      \"action\": \"inhibition\"\n    },\n    {\n      \"source_node\": \"HDAC5\",\n      \"target_node\": \"MEF2C\",\n      \"action\": \"inhibition\"\n    },\n    {\n      \"source_node\": \"HDAC5\",\n      \"target_node\": \"MEF2D\",\n      \"action\": \"inhibition\"\n    },\n    {\n      \"source_node\": \"HDAC7\",\n      \"target_node\": \"MEF2A\",\n      \"action\": \"inhibition\"\n    },\n    {\n      \"source_node\": \"HDAC7\",\n      \"target_node\": \"MEF2C\",\n      \"action\": \"inhibition\"\n    },\n    {\n      \"source_node\": \"HDAC7\",\n      \"target_node\": \"MEF2D\",\n      \"action\": \"inhibition\"\n    },\n    {\n      \"source_node\": \"HDAC9\",\n      \"target_node\": \"MEF2A\",\n      \"action\": \"inhibition\"\n    },\n    {\n      \"source_node\": \"HDAC9\",\n      \"target_node\": \"MEF2C\",\n      \"action\": \"inhibition\"\n    },\n    {\n      \"source_node\": \"HDAC9\",\n      \"target_node\": \"MEF2D\",\n      \"action\": \"inhibition\"\n    },\n    {\n      \"source_node\": \"IGF1\",\n      \"target_node\": \"IGF1R\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"IGF1R\",\n      \"target_node\": \"PIK3CA\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"IGF1R\",\n      \"target_node\": \"PIK3CB\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"IGF1R\",\n      \"target_node\": \"PIK3CD\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"IGF1R\",\n      \"target_node\": \"PIK3CG\",\n      \"action\": \"stimulation\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1095,
+    "prompt_tokens": 9791,
+    "total_tokens": 10886,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 9600
+    },
+    "prompt_cache_hit_tokens": 9600,
+    "prompt_cache_miss_tokens": 191
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 33,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 4.08,
+  "interacciones": [
+    {
+      "source_node": "NPR1",
+      "target_node": "GUCY1A3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NPR1",
+      "target_node": "GUCY1A2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NPR1",
+      "target_node": "GUCY1B3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "LIFR",
+      "target_node": "JAK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "LIFR",
+      "target_node": "JAK2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "LIFR",
+      "target_node": "STAT3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IL6ST",
+      "target_node": "JAK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IL6ST",
+      "target_node": "JAK2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IL6ST",
+      "target_node": "STAT3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNAS",
+      "target_node": "ADCY5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNAS",
+      "target_node": "ADCY6",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNAS",
+      "target_node": "ADCY2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNAS",
+      "target_node": "ADCY8",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GSK3B",
+      "target_node": "NFAT5",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GSK3B",
+      "target_node": "MEF2A",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GSK3B",
+      "target_node": "MEF2C",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC4",
+      "target_node": "MEF2A",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC4",
+      "target_node": "MEF2C",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC4",
+      "target_node": "MEF2D",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC5",
+      "target_node": "MEF2A",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC5",
+      "target_node": "MEF2C",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC5",
+      "target_node": "MEF2D",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC7",
+      "target_node": "MEF2A",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC7",
+      "target_node": "MEF2C",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC7",
+      "target_node": "MEF2D",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC9",
+      "target_node": "MEF2A",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC9",
+      "target_node": "MEF2C",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC9",
+      "target_node": "MEF2D",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "IGF1",
+      "target_node": "IGF1R",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IGF1R",
+      "target_node": "PIK3CA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IGF1R",
+      "target_node": "PIK3CB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IGF1R",
+      "target_node": "PIK3CD",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IGF1R",
+      "target_node": "PIK3CG",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

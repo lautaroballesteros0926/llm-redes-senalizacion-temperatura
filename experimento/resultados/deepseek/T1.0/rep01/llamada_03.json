@@ -1,0 +1,400 @@
+{
+  "timestamp_utc": "2026-10-26T01:43:19.346565+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 3,
+  "intento": 1,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\n  \"interactions\": [\n    {\"source_node\": \"PPP3CA\", \"target_node\": \"NFAT5\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PPP3CA\", \"target_node\": \"MEF2A\", \"action\": \"inhibition\"},\n    {\"source_node\": \"PPP3CA\", \"target_node\": \"MEF2C\", \"action\": \"inhibition\"},\n    {\"source_node\": \"PPP3CB\", \"target_node\": \"NFAT5\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PPP3CB\", \"target_node\": \"MEF2A\", \"action\": \"inhibition\"},\n    {\"source_node\": \"PPP3CB\", \"target_node\": \"MEF2C\", \"action\": \"inhibition\"},\n    {\"source_node\": \"PPP3CC\", \"target_node\": \"NFAT5\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PPP3CC\", \"target_node\": \"MEF2A\", \"action\": \"inhibition\"},\n    {\"source_node\": \"PPP3CC\", \"target_node\": \"MEF2C\", \"action\": \"inhibition\"},\n    {\"source_node\": \"Cell Area\", \"target_node\": \"PTK2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Cell Area\", \"target_node\": \"RAC1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Cell Area\", \"target_node\": \"RHOA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FOS\", \"target_node\": \"JUN\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FOS\", \"target_node\": \"SRF\", \"action\": \"stimulation\"},\n    {\"source_node\": \"JUN\", \"target_node\": \"FOS\", \"action\": \"stimulation\"},\n    {\"source_node\": \"JUN\", \"target_node\": \"ATF2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"cyclic Guanosine Monophosphate\", \"target_node\": \"PRKG1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"cyclic Guanosine Monophosphate\", \"target_node\": \"PDE5A\", \"action\": \"stimulation\"},\n    {\"source_node\": \"CREB1\", \"target_node\": \"FOS\", \"action\": \"stimulation\"},\n    {\"source_node\": \"CREB1\", \"target_node\": \"NPPA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"CREB1\", \"target_node\": \"NPPB\", \"action\": \"stimulation\"},\n    {\"source_node\": \"CREB1\", \"target_node\": \"ATF2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"CREB3\", \"target_node\": \"FOS\", \"action\": \"stimulation\"},\n    {\"source_node\": \"CREB3\", \"target_node\": \"NPPA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"CREB5\", \"target_node\": \"FOS\", \"action\": \"stimulation\"},\n    {\"source_node\": \"CREB5\", \"target_node\": \"NPPA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"CTF1\", \"target_node\": \"LIFR\", \"action\": \"stimulation\"},\n    {\"source_node\": \"CTF1\", \"target_node\": \"IL6ST\", \"action\": \"stimulation\"},\n    {\"source_node\": \"CTF1\", \"target_node\": \"JAK1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"CTF1\", \"target_node\": \"JAK2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"CTF1\", \"target_node\": \"STAT3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Diacylglycerol\", \"target_node\": \"PRKCA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Diacylglycerol\", \"target_node\": \"PRKCB\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Diacylglycerol\", \"target_node\": \"PRKCD\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Diacylglycerol\", \"target_node\": \"PRKCE\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Diacylglycerol\", \"target_node\": \"PRKCG\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Diacylglycerol\", \"target_node\": \"PRKCH\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Diacylglycerol\", \"target_node\": \"PRKCI\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Diacylglycerol\", \"target_node\": \"PRKCQ\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Diacylglycerol\", \"target_node\": \"PRKCZ\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Diacylglycerol\", \"target_node\": \"PRKD1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Diacylglycerol\", \"target_node\": \"PRKD2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Diacylglycerol\", \"target_node\": \"PRKD3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EGF\", \"target_node\": \"EGFR\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EGFR\", \"target_node\": \"HRAS\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EGFR\", \"target_node\": \"KRAS\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EGFR\", \"target_node\": \"PLCG1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EGFR\", \"target_node\": \"PIK3CA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EGFR\", \"target_node\": \"PIK3CB\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EGFR\", \"target_node\": \"PIK3CD\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EGFR\", \"target_node\": \"PIK3CG\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EGFR\", \"target_node\": \"MAP2K1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EGFR\", \"target_node\": \"MAP2K2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B1\", \"target_node\": \"EIF2B2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B1\", \"target_node\": \"EIF2B3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B1\", \"target_node\": \"EIF2B4\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B1\", \"target_node\": \"EIF2B5\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B2\", \"target_node\": \"EIF2B1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B2\", \"target_node\": \"EIF2B3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B2\", \"target_node\": \"EIF2B4\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B2\", \"target_node\": \"EIF2B5\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B3\", \"target_node\": \"EIF2B1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B3\", \"target_node\": \"EIF2B2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B3\", \"target_node\": \"EIF2B4\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B3\", \"target_node\": \"EIF2B5\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B4\", \"target_node\": \"EIF2B1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B4\", \"target_node\": \"EIF2B2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B4\", \"target_node\": \"EIF2B3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B4\", \"target_node\": \"EIF2B5\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B5\", \"target_node\": \"EIF2B1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B5\", \"target_node\": \"EIF2B2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B5\", \"target_node\": \"EIF2B3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B5\", \"target_node\": \"EIF2B4\", \"action\": \"stimulation\"}\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1992,
+    "prompt_tokens": 5518,
+    "total_tokens": 7510,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 5376
+    },
+    "prompt_cache_hit_tokens": 5376,
+    "prompt_cache_miss_tokens": 142
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 73,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 7.0,
+  "interacciones": [
+    {
+      "source_node": "PPP3CA",
+      "target_node": "NFAT5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PPP3CA",
+      "target_node": "MEF2A",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "PPP3CA",
+      "target_node": "MEF2C",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "PPP3CB",
+      "target_node": "NFAT5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PPP3CB",
+      "target_node": "MEF2A",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "PPP3CB",
+      "target_node": "MEF2C",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "PPP3CC",
+      "target_node": "NFAT5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PPP3CC",
+      "target_node": "MEF2A",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "PPP3CC",
+      "target_node": "MEF2C",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "Cell Area",
+      "target_node": "PTK2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Cell Area",
+      "target_node": "RAC1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Cell Area",
+      "target_node": "RHOA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FOS",
+      "target_node": "JUN",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FOS",
+      "target_node": "SRF",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "JUN",
+      "target_node": "FOS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "JUN",
+      "target_node": "ATF2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "cyclic Guanosine Monophosphate",
+      "target_node": "PRKG1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "cyclic Guanosine Monophosphate",
+      "target_node": "PDE5A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CREB1",
+      "target_node": "FOS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CREB1",
+      "target_node": "NPPA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CREB1",
+      "target_node": "NPPB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CREB1",
+      "target_node": "ATF2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CREB3",
+      "target_node": "FOS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CREB3",
+      "target_node": "NPPA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CREB5",
+      "target_node": "FOS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CREB5",
+      "target_node": "NPPA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CTF1",
+      "target_node": "LIFR",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CTF1",
+      "target_node": "IL6ST",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CTF1",
+      "target_node": "JAK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CTF1",
+      "target_node": "JAK2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CTF1",
+      "target_node": "STAT3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Diacylglycerol",
+      "target_node": "PRKCA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Diacylglycerol",
+      "target_node": "PRKCB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Diacylglycerol",
+      "target_node": "PRKCD",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Diacylglycerol",
+      "target_node": "PRKCE",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Diacylglycerol",
+      "target_node": "PRKCG",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Diacylglycerol",
+      "target_node": "PRKCH",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Diacylglycerol",
+      "target_node": "PRKCI",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Diacylglycerol",
+      "target_node": "PRKCQ",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Diacylglycerol",
+      "target_node": "PRKCZ",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Diacylglycerol",
+      "target_node": "PRKD1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Diacylglycerol",
+      "target_node": "PRKD2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Diacylglycerol",
+      "target_node": "PRKD3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EGF",
+      "target_node": "EGFR",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EGFR",
+      "target_node": "HRAS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EGFR",
+      "target_node": "KRAS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EGFR",
+      "target_node": "PLCG1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EGFR",
+      "target_node": "PIK3CA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EGFR",
+      "target_node": "PIK3CB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EGFR",
+      "target_node": "PIK3CD",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EGFR",
+      "target_node": "PIK3CG",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EGFR",
+      "target_node": "MAP2K1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EGFR",
+      "target_node": "MAP2K2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B1",
+      "target_node": "EIF2B2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B1",
+      "target_node": "EIF2B3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B1",
+      "target_node": "EIF2B4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B1",
+      "target_node": "EIF2B5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B2",
+      "target_node": "EIF2B1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B2",
+      "target_node": "EIF2B3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B2",
+      "target_node": "EIF2B4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B2",
+      "target_node": "EIF2B5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B3",
+      "target_node": "EIF2B1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B3",
+      "target_node": "EIF2B2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B3",
+      "target_node": "EIF2B4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B3",
+      "target_node": "EIF2B5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B4",
+      "target_node": "EIF2B1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B4",
+      "target_node": "EIF2B2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B4",
+      "target_node": "EIF2B3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B4",
+      "target_node": "EIF2B5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B5",
+      "target_node": "EIF2B1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B5",
+      "target_node": "EIF2B2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B5",
+      "target_node": "EIF2B3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B5",
+      "target_node": "EIF2B4",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

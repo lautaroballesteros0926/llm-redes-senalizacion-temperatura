@@ -1,0 +1,256 @@
+{
+  "timestamp_utc": "2026-10-26T01:59:05.246407+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 6,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\"interactions\": [{\"source_node\": \"ERBB2\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"}, {\"source_node\": \"ERBB2\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"}, {\"source_node\": \"ERBB2\", \"target_node\": \"PIK3CA\", \"action\": \"stimulation\"}, {\"source_node\": \"ERBB2\", \"target_node\": \"PLCG1\", \"action\": \"stimulation\"}, {\"source_node\": \"ERBB3\", \"target_node\": \"PIK3CA\", \"action\": \"stimulation\"}, {\"source_node\": \"ERBB3\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"}, {\"source_node\": \"ERBB3\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"}, {\"source_node\": \"ERBB3\", \"target_node\": \"AKT1\", \"action\": \"stimulation\"}, {\"source_node\": \"ERBB4\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"}, {\"source_node\": \"ERBB4\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"}, {\"source_node\": \"ERBB4\", \"target_node\": \"PIK3CA\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK1\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK1\", \"target_node\": \"MEF2A\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK1\", \"target_node\": \"MEF2C\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK1\", \"target_node\": \"RAF1\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK1\", \"target_node\": \"RPS6KB1\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK3\", \"target_node\": \"MEF2A\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK3\", \"target_node\": \"MEF2C\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK3\", \"target_node\": \"RAF1\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK3\", \"target_node\": \"RPS6KB1\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK7\", \"target_node\": \"MEF2A\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK7\", \"target_node\": \"MEF2C\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK7\", \"target_node\": \"CREB1\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK7\", \"target_node\": \"FOS\", \"action\": \"stimulation\"}, {\"source_node\": \"EDN1\", \"target_node\": \"EDNRA\", \"action\": \"stimulation\"}, {\"source_node\": \"EDN1\", \"target_node\": \"EDNRB\", \"action\": \"stimulation\"}, {\"source_node\": \"EDNRA\", \"target_node\": \"GNAQ\", \"action\": \"stimulation\"}, {\"source_node\": \"EDNRA\", \"target_node\": \"GNA11\", \"action\": \"stimulation\"}, {\"source_node\": \"EDNRA\", \"target_node\": \"PLCB1\", \"action\": \"stimulation\"}, {\"source_node\": \"EDNRA\", \"target_node\": \"PLCB3\", \"action\": \"stimulation\"}, {\"source_node\": \"EDNRA\", \"target_node\": \"PRKCA\", \"action\": \"stimulation\"}, {\"source_node\": \"EDNRA\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"}, {\"source_node\": \"EDNRA\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"}, {\"source_node\": \"EDNRB\", \"target_node\": \"GNAQ\", \"action\": \"stimulation\"}, {\"source_node\": \"EDNRB\", \"target_node\": \"PLCB1\", \"action\": \"stimulation\"}, {\"source_node\": \"EDNRB\", \"target_node\": \"PRKCA\", \"action\": \"stimulation\"}, {\"source_node\": \"EDNRB\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"}, {\"source_node\": \"EDNRB\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"}, {\"source_node\": \"PTK2\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"}, {\"source_node\": \"PTK2\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"}, {\"source_node\": \"PTK2\", \"target_node\": \"PIK3CA\", \"action\": \"stimulation\"}, {\"source_node\": \"PTK2\", \"target_node\": \"AKT1\", \"action\": \"stimulation\"}, {\"source_node\": \"PTK2\", \"target_node\": \"RAC1\", \"action\": \"stimulation\"}, {\"source_node\": \"PTK2\", \"target_node\": \"RHOA\", \"action\": \"stimulation\"}]}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1117,
+    "prompt_tokens": 9846,
+    "total_tokens": 10963,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 9600
+    },
+    "prompt_cache_hit_tokens": 9600,
+    "prompt_cache_miss_tokens": 246
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 44,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 4.21,
+  "interacciones": [
+    {
+      "source_node": "ERBB2",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB2",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB2",
+      "target_node": "PIK3CA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB2",
+      "target_node": "PLCG1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB3",
+      "target_node": "PIK3CA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB3",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB3",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB3",
+      "target_node": "AKT1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB4",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB4",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB4",
+      "target_node": "PIK3CA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK1",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK1",
+      "target_node": "MEF2A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK1",
+      "target_node": "MEF2C",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK1",
+      "target_node": "RAF1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK1",
+      "target_node": "RPS6KB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK3",
+      "target_node": "MEF2A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK3",
+      "target_node": "MEF2C",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK3",
+      "target_node": "RAF1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK3",
+      "target_node": "RPS6KB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK7",
+      "target_node": "MEF2A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK7",
+      "target_node": "MEF2C",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK7",
+      "target_node": "CREB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK7",
+      "target_node": "FOS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDN1",
+      "target_node": "EDNRA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDN1",
+      "target_node": "EDNRB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRA",
+      "target_node": "GNAQ",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRA",
+      "target_node": "GNA11",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRA",
+      "target_node": "PLCB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRA",
+      "target_node": "PLCB3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRA",
+      "target_node": "PRKCA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRA",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRA",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRB",
+      "target_node": "GNAQ",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRB",
+      "target_node": "PLCB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRB",
+      "target_node": "PRKCA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRB",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRB",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PTK2",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PTK2",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PTK2",
+      "target_node": "PIK3CA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PTK2",
+      "target_node": "AKT1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PTK2",
+      "target_node": "RAC1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PTK2",
+      "target_node": "RHOA",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

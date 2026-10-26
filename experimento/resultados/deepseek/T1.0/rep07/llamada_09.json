@@ -1,0 +1,261 @@
+{
+  "timestamp_utc": "2026-10-26T01:56:42.861325+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 9,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\"interactions\": [{\"source_node\": \"IL6\", \"target_node\": \"IL6R\", \"action\": \"stimulation\"}, {\"source_node\": \"IL6\", \"target_node\": \"IL6ST\", \"action\": \"stimulation\"}, {\"source_node\": \"IL6R\", \"target_node\": \"JAK1\", \"action\": \"stimulation\"}, {\"source_node\": \"IL6R\", \"target_node\": \"JAK2\", \"action\": \"stimulation\"}, {\"source_node\": \"IL6R\", \"target_node\": \"IL6ST\", \"action\": \"stimulation\"}, {\"source_node\": \"IL6ST\", \"target_node\": \"JAK1\", \"action\": \"stimulation\"}, {\"source_node\": \"IL6ST\", \"target_node\": \"JAK2\", \"action\": \"stimulation\"}, {\"source_node\": \"JAK1\", \"target_node\": \"STAT1\", \"action\": \"stimulation\"}, {\"source_node\": \"JAK1\", \"target_node\": \"STAT3\", \"action\": \"stimulation\"}, {\"source_node\": \"JAK2\", \"target_node\": \"STAT1\", \"action\": \"stimulation\"}, {\"source_node\": \"JAK2\", \"target_node\": \"STAT3\", \"action\": \"stimulation\"}, {\"source_node\": \"STAT3\", \"target_node\": \"NPPB\", \"action\": \"stimulation\"}, {\"source_node\": \"STAT3\", \"target_node\": \"FOS\", \"action\": \"stimulation\"}, {\"source_node\": \"STAT3\", \"target_node\": \"Cell Area\", \"action\": \"stimulation\"}, {\"source_node\": \"ITGA1\", \"target_node\": \"PTK2\", \"action\": \"stimulation\"}, {\"source_node\": \"ITGA1\", \"target_node\": \"RAC1\", \"action\": \"stimulation\"}, {\"source_node\": \"ITGA1\", \"target_node\": \"PIK3CA\", \"action\": \"stimulation\"}, {\"source_node\": \"ISOPROTERENOL\", \"target_node\": \"ADRB1\", \"action\": \"stimulation\"}, {\"source_node\": \"ISOPROTERENOL\", \"target_node\": \"ADRB2\", \"action\": \"stimulation\"}, {\"source_node\": \"ISOPROTERENOL\", \"target_node\": \"ADRB3\", \"action\": \"stimulation\"}, {\"source_node\": \"JAK1\", \"target_node\": \"STAT1\", \"action\": \"stimulation\"}, {\"source_node\": \"JAK1\", \"target_node\": \"STAT3\", \"action\": \"stimulation\"}, {\"source_node\": \"JAK2\", \"target_node\": \"STAT1\", \"action\": \"stimulation\"}, {\"source_node\": \"JAK2\", \"target_node\": \"STAT3\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK8\", \"target_node\": \"JUN\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK8\", \"target_node\": \"ATF2\", \"action\": \"stimulation\"}, {\"source_node\": \"LIF\", \"target_node\": \"LIFR\", \"action\": \"stimulation\"}, {\"source_node\": \"LIF\", \"target_node\": \"IL6ST\", \"action\": \"stimulation\"}, {\"source_node\": \"LIF\", \"target_node\": \"JAK1\", \"action\": \"stimulation\"}, {\"source_node\": \"LIF\", \"target_node\": \"JAK2\", \"action\": \"stimulation\"}, {\"source_node\": \"LIF\", \"target_node\": \"STAT3\", \"action\": \"stimulation\"}, {\"source_node\": \"MAP3K11\", \"target_node\": \"MAP2K3\", \"action\": \"stimulation\"}, {\"source_node\": \"MAP3K11\", \"target_node\": \"MAP2K6\", \"action\": \"stimulation\"}, {\"source_node\": \"MAP3K11\", \"target_node\": \"MAP2K4\", \"action\": \"stimulation\"}, {\"source_node\": \"MAP3K11\", \"target_node\": \"MAP2K7\", \"action\": \"stimulation\"}, {\"source_node\": \"MAP3K2\", \"target_node\": \"MAP2K3\", \"action\": \"stimulation\"}, {\"source_node\": \"MAP3K2\", \"target_node\": \"MAP2K6\", \"action\": \"stimulation\"}, {\"source_node\": \"MAP3K3\", \"target_node\": \"MAP2K3\", \"action\": \"stimulation\"}, {\"source_node\": \"MAP3K3\", \"target_node\": \"MAP2K6\", \"action\": \"stimulation\"}, {\"source_node\": \"MAP3K4\", \"target_node\": \"MAP2K3\", \"action\": \"stimulation\"}, {\"source_node\": \"MAP3K4\", \"target_node\": \"MAP2K6\", \"action\": \"stimulation\"}, {\"source_node\": \"MAP3K1\", \"target_node\": \"MAP2K4\", \"action\": \"stimulation\"}, {\"source_node\": \"MAP3K1\", \"target_node\": \"MAP2K7\", \"action\": \"stimulation\"}, {\"source_node\": \"MAP3K7\", \"target_node\": \"MAP2K4\", \"action\": \"stimulation\"}, {\"source_node\": \"MAP3K7\", \"target_node\": \"MAP2K7\", \"action\": \"stimulation\"}]}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1148,
+    "prompt_tokens": 15382,
+    "total_tokens": 16530,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 15232
+    },
+    "prompt_cache_hit_tokens": 15232,
+    "prompt_cache_miss_tokens": 150
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 45,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 4.83,
+  "interacciones": [
+    {
+      "source_node": "IL6",
+      "target_node": "IL6R",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IL6",
+      "target_node": "IL6ST",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IL6R",
+      "target_node": "JAK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IL6R",
+      "target_node": "JAK2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IL6R",
+      "target_node": "IL6ST",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IL6ST",
+      "target_node": "JAK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IL6ST",
+      "target_node": "JAK2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "JAK1",
+      "target_node": "STAT1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "JAK1",
+      "target_node": "STAT3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "JAK2",
+      "target_node": "STAT1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "JAK2",
+      "target_node": "STAT3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "STAT3",
+      "target_node": "NPPB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "STAT3",
+      "target_node": "FOS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "STAT3",
+      "target_node": "Cell Area",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ITGA1",
+      "target_node": "PTK2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ITGA1",
+      "target_node": "RAC1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ITGA1",
+      "target_node": "PIK3CA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ISOPROTERENOL",
+      "target_node": "ADRB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ISOPROTERENOL",
+      "target_node": "ADRB2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ISOPROTERENOL",
+      "target_node": "ADRB3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "JAK1",
+      "target_node": "STAT1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "JAK1",
+      "target_node": "STAT3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "JAK2",
+      "target_node": "STAT1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "JAK2",
+      "target_node": "STAT3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK8",
+      "target_node": "JUN",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK8",
+      "target_node": "ATF2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "LIF",
+      "target_node": "LIFR",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "LIF",
+      "target_node": "IL6ST",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "LIF",
+      "target_node": "JAK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "LIF",
+      "target_node": "JAK2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "LIF",
+      "target_node": "STAT3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K11",
+      "target_node": "MAP2K3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K11",
+      "target_node": "MAP2K6",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K11",
+      "target_node": "MAP2K4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K11",
+      "target_node": "MAP2K7",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K2",
+      "target_node": "MAP2K3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K2",
+      "target_node": "MAP2K6",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K3",
+      "target_node": "MAP2K3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K3",
+      "target_node": "MAP2K6",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K4",
+      "target_node": "MAP2K3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K4",
+      "target_node": "MAP2K6",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K1",
+      "target_node": "MAP2K4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K1",
+      "target_node": "MAP2K7",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K7",
+      "target_node": "MAP2K4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K7",
+      "target_node": "MAP2K7",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

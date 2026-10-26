@@ -1,0 +1,246 @@
+{
+  "timestamp_utc": "2026-10-26T01:54:15.547161+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 9,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\"interactions\": [{\"source_node\": \"HDAC7\", \"target_node\": \"MEF2A\", \"action\": \"inhibition\"}, {\"source_node\": \"HDAC7\", \"target_node\": \"MEF2C\", \"action\": \"inhibition\"}, {\"source_node\": \"HDAC7\", \"target_node\": \"MEF2D\", \"action\": \"inhibition\"}, {\"source_node\": \"HDAC9\", \"target_node\": \"MEF2A\", \"action\": \"inhibition\"}, {\"source_node\": \"HDAC9\", \"target_node\": \"MEF2B\", \"action\": \"inhibition\"}, {\"source_node\": \"HDAC9\", \"target_node\": \"MEF2C\", \"action\": \"inhibition\"}, {\"source_node\": \"HDAC9\", \"target_node\": \"MEF2D\", \"action\": \"inhibition\"}, {\"source_node\": \"IGF1\", \"target_node\": \"IGF1R\", \"action\": \"stimulation\"}, {\"source_node\": \"IGF1\", \"target_node\": \"Cell Area\", \"action\": \"stimulation\"}, {\"source_node\": \"IGF1\", \"target_node\": \"NPPB\", \"action\": \"stimulation\"}, {\"source_node\": \"IGF1R\", \"target_node\": \"IRS1\", \"action\": \"stimulation\"}, {\"source_node\": \"IGF1R\", \"target_node\": \"PIK3CA\", \"action\": \"stimulation\"}, {\"source_node\": \"IGF1R\", \"target_node\": \"HRAS\", \"action\": \"stimulation\"}, {\"source_node\": \"IGF1R\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"}, {\"source_node\": \"IGF1R\", \"target_node\": \"AKT1\", \"action\": \"stimulation\"}, {\"source_node\": \"NFKBIA\", \"target_node\": \"NFKB1\", \"action\": \"inhibition\"}, {\"source_node\": \"NFKBIA\", \"target_node\": \"IKBKB\", \"action\": \"inhibition\"}, {\"source_node\": \"IKBKB\", \"target_node\": \"NFKBIA\", \"action\": \"stimulation\"}, {\"source_node\": \"IKBKB\", \"target_node\": \"NFKB1\", \"action\": \"stimulation\"}, {\"source_node\": \"IKBKB\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"}, {\"source_node\": \"IL6\", \"target_node\": \"IL6R\", \"action\": \"stimulation\"}, {\"source_node\": \"IL6\", \"target_node\": \"IL6ST\", \"action\": \"stimulation\"}, {\"source_node\": \"IL6\", \"target_node\": \"NPPB\", \"action\": \"stimulation\"}, {\"source_node\": \"IL6R\", \"target_node\": \"IL6ST\", \"action\": \"stimulation\"}, {\"source_node\": \"IL6R\", \"target_node\": \"JAK1\", \"action\": \"stimulation\"}, {\"source_node\": \"IL6R\", \"target_node\": \"JAK2\", \"action\": \"stimulation\"}, {\"source_node\": \"IL6R\", \"target_node\": \"STAT3\", \"action\": \"stimulation\"}, {\"source_node\": \"ITGA1\", \"target_node\": \"PTK2\", \"action\": \"stimulation\"}, {\"source_node\": \"ITGA1\", \"target_node\": \"RAC1\", \"action\": \"stimulation\"}, {\"source_node\": \"ITGA1\", \"target_node\": \"RHOA\", \"action\": \"stimulation\"}, {\"source_node\": \"ITGA1\", \"target_node\": \"Cell Area\", \"action\": \"stimulation\"}, {\"source_node\": \"Inositol Triphosphate\", \"target_node\": \"CALM1\", \"action\": \"stimulation\"}, {\"source_node\": \"Inositol Triphosphate\", \"target_node\": \"CALM2\", \"action\": \"stimulation\"}, {\"source_node\": \"Inositol Triphosphate\", \"target_node\": \"CALM3\", \"action\": \"stimulation\"}, {\"source_node\": \"Isoproterenol\", \"target_node\": \"ADRB1\", \"action\": \"stimulation\"}, {\"source_node\": \"Isoproterenol\", \"target_node\": \"ADRB2\", \"action\": \"stimulation\"}, {\"source_node\": \"Isoproterenol\", \"target_node\": \"ADRB3\", \"action\": \"stimulation\"}, {\"source_node\": \"Isoproterenol\", \"target_node\": \"cyclic AMP\", \"action\": \"stimulation\"}, {\"source_node\": \"JAK1\", \"target_node\": \"STAT1\", \"action\": \"stimulation\"}, {\"source_node\": \"JAK1\", \"target_node\": \"STAT3\", \"action\": \"stimulation\"}, {\"source_node\": \"JAK2\", \"target_node\": \"STAT1\", \"action\": \"stimulation\"}, {\"source_node\": \"JAK2\", \"target_node\": \"STAT3\", \"action\": \"stimulation\"}]}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1068,
+    "prompt_tokens": 11754,
+    "total_tokens": 12822,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 11520
+    },
+    "prompt_cache_hit_tokens": 11520,
+    "prompt_cache_miss_tokens": 234
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 42,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 3.87,
+  "interacciones": [
+    {
+      "source_node": "HDAC7",
+      "target_node": "MEF2A",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC7",
+      "target_node": "MEF2C",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC7",
+      "target_node": "MEF2D",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC9",
+      "target_node": "MEF2A",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC9",
+      "target_node": "MEF2B",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC9",
+      "target_node": "MEF2C",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC9",
+      "target_node": "MEF2D",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "IGF1",
+      "target_node": "IGF1R",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IGF1",
+      "target_node": "Cell Area",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IGF1",
+      "target_node": "NPPB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IGF1R",
+      "target_node": "IRS1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IGF1R",
+      "target_node": "PIK3CA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IGF1R",
+      "target_node": "HRAS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IGF1R",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IGF1R",
+      "target_node": "AKT1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NFKBIA",
+      "target_node": "NFKB1",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "NFKBIA",
+      "target_node": "IKBKB",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "IKBKB",
+      "target_node": "NFKBIA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IKBKB",
+      "target_node": "NFKB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IKBKB",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IL6",
+      "target_node": "IL6R",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IL6",
+      "target_node": "IL6ST",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IL6",
+      "target_node": "NPPB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IL6R",
+      "target_node": "IL6ST",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IL6R",
+      "target_node": "JAK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IL6R",
+      "target_node": "JAK2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IL6R",
+      "target_node": "STAT3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ITGA1",
+      "target_node": "PTK2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ITGA1",
+      "target_node": "RAC1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ITGA1",
+      "target_node": "RHOA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ITGA1",
+      "target_node": "Cell Area",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Inositol Triphosphate",
+      "target_node": "CALM1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Inositol Triphosphate",
+      "target_node": "CALM2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Inositol Triphosphate",
+      "target_node": "CALM3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Isoproterenol",
+      "target_node": "ADRB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Isoproterenol",
+      "target_node": "ADRB2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Isoproterenol",
+      "target_node": "ADRB3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Isoproterenol",
+      "target_node": "cyclic AMP",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "JAK1",
+      "target_node": "STAT1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "JAK1",
+      "target_node": "STAT3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "JAK2",
+      "target_node": "STAT1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "JAK2",
+      "target_node": "STAT3",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

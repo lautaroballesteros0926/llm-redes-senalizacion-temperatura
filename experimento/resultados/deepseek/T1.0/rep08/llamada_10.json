@@ -1,0 +1,136 @@
+{
+  "timestamp_utc": "2026-10-26T01:57:28.046569+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 10,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\n  \"interactions\": [\n    {\"source_node\": \"PRKACA\", \"target_node\": \"ATP2A3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKACB\", \"target_node\": \"ATP2A3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKACG\", \"target_node\": \"ATP2A3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKCA\", \"target_node\": \"PLCB1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKCB\", \"target_node\": \"PLCB3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKCD\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKCE\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKCG\", \"target_node\": \"JUN\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKCH\", \"target_node\": \"FOS\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKCI\", \"target_node\": \"NFKBIA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKCQ\", \"target_node\": \"MAPK8\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKCZ\", \"target_node\": \"AKT1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD1\", \"target_node\": \"HDAC4\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD2\", \"target_node\": \"HDAC5\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD3\", \"target_node\": \"HDAC7\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKG1\", \"target_node\": \"RHO\", \"action\": \"inhibition\"},\n    {\"source_node\": \"PLCB1\", \"target_node\": \"Inositol Triphosphate\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCB3\", \"target_node\": \"Inositol Triphosphate\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCB4\", \"target_node\": \"Inositol Triphosphate\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCG1\", \"target_node\": \"Inositol Triphosphate\", \"action\": \"stimulation\"}\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 539,
+    "prompt_tokens": 9550,
+    "total_tokens": 10089,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 9344
+    },
+    "prompt_cache_hit_tokens": 9344,
+    "prompt_cache_miss_tokens": 206
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 20,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 2.5,
+  "interacciones": [
+    {
+      "source_node": "PRKACA",
+      "target_node": "ATP2A3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKACB",
+      "target_node": "ATP2A3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKACG",
+      "target_node": "ATP2A3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKCA",
+      "target_node": "PLCB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKCB",
+      "target_node": "PLCB3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKCD",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKCE",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKCG",
+      "target_node": "JUN",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKCH",
+      "target_node": "FOS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKCI",
+      "target_node": "NFKBIA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKCQ",
+      "target_node": "MAPK8",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKCZ",
+      "target_node": "AKT1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD1",
+      "target_node": "HDAC4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD2",
+      "target_node": "HDAC5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD3",
+      "target_node": "HDAC7",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKG1",
+      "target_node": "RHO",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "PLCB1",
+      "target_node": "Inositol Triphosphate",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCB3",
+      "target_node": "Inositol Triphosphate",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCB4",
+      "target_node": "Inositol Triphosphate",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCG1",
+      "target_node": "Inositol Triphosphate",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

@@ -1,0 +1,141 @@
+{
+  "timestamp_utc": "2026-10-26T01:53:25.315862+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 0.0,
+  "llamada": 9,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\n  \"interactions\": [\n    {\"source_node\": \"TNFRSF10A\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"TNFRSF10B\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"TNFRSF10C\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"TNFRSF10D\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"TNFRSF11A\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"TNFRSF11B\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"TNFRSF12A\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"TNFRSF13B\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"TNFRSF13C\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"TNFRSF14\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"TNFRSF17\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"TNFRSF18\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"TNFRSF19\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"TNFRSF1A\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"TNFRSF1B\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"TNFRSF21\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"TNFRSF25\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"TNFRSF4\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"TNFRSF6\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"TNFRSF8\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"TNFRSF9\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"}\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 630,
+    "prompt_tokens": 23536,
+    "total_tokens": 24166,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 23296
+    },
+    "prompt_cache_hit_tokens": 23296,
+    "prompt_cache_miss_tokens": 240
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 21,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 2.83,
+  "interacciones": [
+    {
+      "source_node": "TNFRSF10A",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF10B",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF10C",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF10D",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF11A",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF11B",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF12A",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF13B",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF13C",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF14",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF17",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF18",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF19",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF1A",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF1B",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF21",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF25",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF4",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF6",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF8",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF9",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

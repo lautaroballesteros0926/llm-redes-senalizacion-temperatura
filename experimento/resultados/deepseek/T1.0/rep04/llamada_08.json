@@ -1,0 +1,246 @@
+{
+  "timestamp_utc": "2026-10-26T01:54:11.660048+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 8,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\"interactions\": [{\"source_node\": \"GNB1\", \"target_node\": \"ADCY5\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB1\", \"target_node\": \"ADCY6\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB1\", \"target_node\": \"ADCY2\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB2\", \"target_node\": \"ADCY5\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB2\", \"target_node\": \"ADCY6\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB2\", \"target_node\": \"ADCY8\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB3\", \"target_node\": \"ADCY2\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB3\", \"target_node\": \"ADCY8\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB4\", \"target_node\": \"ADCY5\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB4\", \"target_node\": \"ADCY2\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB5\", \"target_node\": \"ADCY6\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB5\", \"target_node\": \"ADCY8\", \"action\": \"inhibition\"}, {\"source_node\": \"NPR1\", \"target_node\": \"GUCY1A2\", \"action\": \"stimulation\"}, {\"source_node\": \"NPR1\", \"target_node\": \"GUCY1A3\", \"action\": \"stimulation\"}, {\"source_node\": \"NPR1\", \"target_node\": \"GUCY1B3\", \"action\": \"stimulation\"}, {\"source_node\": \"NPR1\", \"target_node\": \"cyclic Guanosine Monophosphate\", \"action\": \"stimulation\"}, {\"source_node\": \"NPR1\", \"target_node\": \"PRKG1\", \"action\": \"stimulation\"}, {\"source_node\": \"LIFR\", \"target_node\": \"JAK1\", \"action\": \"stimulation\"}, {\"source_node\": \"LIFR\", \"target_node\": \"JAK2\", \"action\": \"stimulation\"}, {\"source_node\": \"LIFR\", \"target_node\": \"STAT3\", \"action\": \"stimulation\"}, {\"source_node\": \"LIFR\", \"target_node\": \"STAT1\", \"action\": \"stimulation\"}, {\"source_node\": \"IL6ST\", \"target_node\": \"JAK1\", \"action\": \"stimulation\"}, {\"source_node\": \"IL6ST\", \"target_node\": \"JAK2\", \"action\": \"stimulation\"}, {\"source_node\": \"IL6ST\", \"target_node\": \"STAT3\", \"action\": \"stimulation\"}, {\"source_node\": \"IL6ST\", \"target_node\": \"PTPN11\", \"action\": \"stimulation\"}, {\"source_node\": \"GNAS\", \"target_node\": \"ADCY5\", \"action\": \"stimulation\"}, {\"source_node\": \"GNAS\", \"target_node\": \"ADCY6\", \"action\": \"stimulation\"}, {\"source_node\": \"GNAS\", \"target_node\": \"ADCY2\", \"action\": \"stimulation\"}, {\"source_node\": \"GNAS\", \"target_node\": \"ADCY8\", \"action\": \"stimulation\"}, {\"source_node\": \"GNAS\", \"target_node\": \"cyclic AMP\", \"action\": \"stimulation\"}, {\"source_node\": \"GSK3B\", \"target_node\": \"NFAT5\", \"action\": \"inhibition\"}, {\"source_node\": \"GSK3B\", \"target_node\": \"MEF2A\", \"action\": \"inhibition\"}, {\"source_node\": \"GSK3B\", \"target_node\": \"MEF2C\", \"action\": \"inhibition\"}, {\"source_node\": \"GSK3B\", \"target_node\": \"JUN\", \"action\": \"inhibition\"}, {\"source_node\": \"GSK3B\", \"target_node\": \"CTF1\", \"action\": \"inhibition\"}, {\"source_node\": \"HDAC4\", \"target_node\": \"MEF2A\", \"action\": \"inhibition\"}, {\"source_node\": \"HDAC4\", \"target_node\": \"MEF2C\", \"action\": \"inhibition\"}, {\"source_node\": \"HDAC4\", \"target_node\": \"MEF2D\", \"action\": \"inhibition\"}, {\"source_node\": \"HDAC5\", \"target_node\": \"MEF2A\", \"action\": \"inhibition\"}, {\"source_node\": \"HDAC5\", \"target_node\": \"MEF2B\", \"action\": \"inhibition\"}, {\"source_node\": \"HDAC5\", \"target_node\": \"MEF2C\", \"action\": \"inhibition\"}, {\"source_node\": \"HDAC5\", \"target_node\": \"MEF2D\", \"action\": \"inhibition\"}]}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1074,
+    "prompt_tokens": 10658,
+    "total_tokens": 11732,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 10496
+    },
+    "prompt_cache_hit_tokens": 10496,
+    "prompt_cache_miss_tokens": 162
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 42,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 4.18,
+  "interacciones": [
+    {
+      "source_node": "GNB1",
+      "target_node": "ADCY5",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB1",
+      "target_node": "ADCY6",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB1",
+      "target_node": "ADCY2",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB2",
+      "target_node": "ADCY5",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB2",
+      "target_node": "ADCY6",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB2",
+      "target_node": "ADCY8",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB3",
+      "target_node": "ADCY2",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB3",
+      "target_node": "ADCY8",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB4",
+      "target_node": "ADCY5",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB4",
+      "target_node": "ADCY2",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB5",
+      "target_node": "ADCY6",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB5",
+      "target_node": "ADCY8",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "NPR1",
+      "target_node": "GUCY1A2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NPR1",
+      "target_node": "GUCY1A3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NPR1",
+      "target_node": "GUCY1B3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NPR1",
+      "target_node": "cyclic Guanosine Monophosphate",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NPR1",
+      "target_node": "PRKG1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "LIFR",
+      "target_node": "JAK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "LIFR",
+      "target_node": "JAK2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "LIFR",
+      "target_node": "STAT3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "LIFR",
+      "target_node": "STAT1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IL6ST",
+      "target_node": "JAK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IL6ST",
+      "target_node": "JAK2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IL6ST",
+      "target_node": "STAT3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "IL6ST",
+      "target_node": "PTPN11",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNAS",
+      "target_node": "ADCY5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNAS",
+      "target_node": "ADCY6",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNAS",
+      "target_node": "ADCY2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNAS",
+      "target_node": "ADCY8",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNAS",
+      "target_node": "cyclic AMP",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GSK3B",
+      "target_node": "NFAT5",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GSK3B",
+      "target_node": "MEF2A",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GSK3B",
+      "target_node": "MEF2C",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GSK3B",
+      "target_node": "JUN",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GSK3B",
+      "target_node": "CTF1",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC4",
+      "target_node": "MEF2A",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC4",
+      "target_node": "MEF2C",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC4",
+      "target_node": "MEF2D",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC5",
+      "target_node": "MEF2A",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC5",
+      "target_node": "MEF2B",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC5",
+      "target_node": "MEF2C",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "HDAC5",
+      "target_node": "MEF2D",
+      "action": "inhibition"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

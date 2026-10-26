@@ -1,0 +1,21 @@
+# --- SECRETOS: nunca subir ---
+.env
+*.env
+
+# --- Entorno virtual y caches ---
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.tmp
+
+# --- Repo de terceros (se clona aparte; ver README) y plantilla de la editorial ---
+LLM-network-generation/
+OUP_General_Template__1_/
+
+# --- Archivos auxiliares de LaTeX ---
+articulo/*.aux
+articulo/*.bbl
+articulo/*.blg
+articulo/*.log
+articulo/*.out
+articulo/articulo_overleaf.zip

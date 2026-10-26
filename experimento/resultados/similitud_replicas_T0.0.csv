@@ -1,0 +1,4 @@
+par,identicas_mismo_orden,identicas_como_conjunto,jaccard
+rep01-rep02,False,False,0.40580645161290324
+rep01-rep03,False,False,0.4575363427697016
+rep02-rep03,False,False,0.49000799360511593

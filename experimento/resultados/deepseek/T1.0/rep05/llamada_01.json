@@ -1,0 +1,346 @@
+{
+  "timestamp_utc": "2026-10-26T01:54:32.471225+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 1,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "For the first 20 entries in this list of genes, proteins, and other signaling nodes \n    from a cardiac hypertrophy signaling network, please provide more than 0 but fewer than 14 direct interactions \n    with other nodes from the list supported by available literature. \n    Return plausible interactions between these nodes in JSON format. \n    Each interaction should have: source_node, target_node, and action (\"stimulation\" or \"inhibition\").\n    ",
+  "content": "{\"interactions\": [{\"source_node\": \"ADRA1A\", \"target_node\": \"GNAQ\", \"action\": \"stimulation\"}, {\"source_node\": \"ADRA1A\", \"target_node\": \"GNA11\", \"action\": \"stimulation\"}, {\"source_node\": \"ADRA1A\", \"target_node\": \"PLCB1\", \"action\": \"stimulation\"}, {\"source_node\": \"ADRA1A\", \"target_node\": \"PLCB3\", \"action\": \"stimulation\"}, {\"source_node\": \"ADRA1A\", \"target_node\": \"PRKCA\", \"action\": \"stimulation\"}, {\"source_node\": \"ADRA1A\", \"target_node\": \"Calcium \", \"action\": \"stimulation\"}, {\"source_node\": \"ADRA1B\", \"target_node\": \"GNAQ\", \"action\": \"stimulation\"}, {\"source_node\": \"ADRA1B\", \"target_node\": \"GNA11\", \"action\": \"stimulation\"}, {\"source_node\": \"ADRA1B\", \"target_node\": \"PLCB1\", \"action\": \"stimulation\"}, {\"source_node\": \"ADRA1B\", \"target_node\": \"PLCB3\", \"action\": \"stimulation\"}, {\"source_node\": \"ADRA1B\", \"target_node\": \"PRKCA\", \"action\": \"stimulation\"}, {\"source_node\": \"ADRA1B\", \"target_node\": \"Calcium \", \"action\": \"stimulation\"}, {\"source_node\": \"ADRA1D\", \"target_node\": \"GNAQ\", \"action\": \"stimulation\"}, {\"source_node\": \"ADRA1D\", \"target_node\": \"GNA11\", \"action\": \"stimulation\"}, {\"source_node\": \"ADRA1D\", \"target_node\": \"PLCB1\", \"action\": \"stimulation\"}, {\"source_node\": \"ADRA1D\", \"target_node\": \"PLCB3\", \"action\": \"stimulation\"}, {\"source_node\": \"ADRA1D\", \"target_node\": \"PRKCA\", \"action\": \"stimulation\"}, {\"source_node\": \"ADRA1D\", \"target_node\": \"Calcium \", \"action\": \"stimulation\"}, {\"source_node\": \"ADRA2B\", \"target_node\": \"ADCY5\", \"action\": \"inhibition\"}, {\"source_node\": \"ADRA2B\", \"target_node\": \"ADCY6\", \"action\": \"inhibition\"}, {\"source_node\": \"ADRA2B\", \"target_node\": \"ADCY2\", \"action\": \"inhibition\"}, {\"source_node\": \"ADRA2B\", \"target_node\": \"ADCY8\", \"action\": \"inhibition\"}, {\"source_node\": \"ADRA2B\", \"target_node\": \"cyclic AMP\", \"action\": \"inhibition\"}, {\"source_node\": \"ADRA2C\", \"target_node\": \"ADCY5\", \"action\": \"inhibition\"}, {\"source_node\": \"ADRA2C\", \"target_node\": \"ADCY6\", \"action\": \"inhibition\"}, {\"source_node\": \"ADRA2C\", \"target_node\": \"ADCY2\", \"action\": \"inhibition\"}, {\"source_node\": \"ADRA2C\", \"target_node\": \"ADCY8\", \"action\": \"inhibition\"}, {\"source_node\": \"ADRA2C\", \"target_node\": \"cyclic AMP\", \"action\": \"inhibition\"}, {\"source_node\": \"ADCY5\", \"target_node\": \"cyclic AMP\", \"action\": \"stimulation\"}, {\"source_node\": \"ADCY6\", \"target_node\": \"cyclic AMP\", \"action\": \"stimulation\"}, {\"source_node\": \"ADCY2\", \"target_node\": \"cyclic AMP\", \"action\": \"stimulation\"}, {\"source_node\": \"ADCY8\", \"target_node\": \"cyclic AMP\", \"action\": \"stimulation\"}, {\"source_node\": \"AKT1\", \"target_node\": \"FOXO1\", \"action\": \"inhibition\"}, {\"source_node\": \"AKT1\", \"target_node\": \"FOXO3\", \"action\": \"inhibition\"}, {\"source_node\": \"AKT1\", \"target_node\": \"FOXO4\", \"action\": \"inhibition\"}, {\"source_node\": \"AKT1\", \"target_node\": \"MTOR\", \"action\": \"stimulation\"}, {\"source_node\": \"AKT1\", \"target_node\": \"GSK3B\", \"action\": \"inhibition\"}, {\"source_node\": \"AKT2\", \"target_node\": \"FOXO1\", \"action\": \"inhibition\"}, {\"source_node\": \"AKT2\", \"target_node\": \"FOXO3\", \"action\": \"inhibition\"}, {\"source_node\": \"AKT2\", \"target_node\": \"FOXO4\", \"action\": \"inhibition\"}, {\"source_node\": \"AKT2\", \"target_node\": \"MTOR\", \"action\": \"stimulation\"}, {\"source_node\": \"AKT2\", \"target_node\": \"GSK3B\", \"action\": \"inhibition\"}, {\"source_node\": \"AKT3\", \"target_node\": \"FOXO1\", \"action\": \"inhibition\"}, {\"source_node\": \"AKT3\", \"target_node\": \"FOXO3\", \"action\": \"inhibition\"}, {\"source_node\": \"AKT3\", \"target_node\": \"FOXO4\", \"action\": \"inhibition\"}, {\"source_node\": \"AKT3\", \"target_node\": \"MTOR\", \"action\": \"stimulation\"}, {\"source_node\": \"AKT3\", \"target_node\": \"GSK3B\", \"action\": \"inhibition\"}, {\"source_node\": \"MYH6\", \"target_node\": \"MYH7\", \"action\": \"inhibition\"}, {\"source_node\": \"MYH6\", \"target_node\": \"Cell Area\", \"action\": \"stimulation\"}, {\"source_node\": \"AGT\", \"target_node\": \"AGTR1\", \"action\": \"stimulation\"}, {\"source_node\": \"AGT\", \"target_node\": \"AGTR2\", \"action\": \"stimulation\"}, {\"source_node\": \"NPPA\", \"target_node\": \"AtrialNatriureticFactor Input\", \"action\": \"stimulation\"}, {\"source_node\": \"AtrialNatriureticFactor Input\", \"target_node\": \"NPR1\", \"action\": \"stimulation\"}, {\"source_node\": \"AtrialNatriureticFactor Input\", \"target_node\": \"cyclic Guanosine Monophosphate\", \"action\": \"stimulation\"}, {\"source_node\": \"AGTR1\", \"target_node\": \"GNAQ\", \"action\": \"stimulation\"}, {\"source_node\": \"AGTR1\", \"target_node\": \"GNA11\", \"action\": \"stimulation\"}, {\"source_node\": \"AGTR1\", \"target_node\": \"PLCB1\", \"action\": \"stimulation\"}, {\"source_node\": \"AGTR1\", \"target_node\": \"PLCB3\", \"action\": \"stimulation\"}, {\"source_node\": \"AGTR1\", \"target_node\": \"PRKCA\", \"action\": \"stimulation\"}, {\"source_node\": \"AGTR2\", \"target_node\": \"PPP3CA\", \"action\": \"stimulation\"}, {\"source_node\": \"AGTR2\", \"target_node\": \"PPP3CB\", \"action\": \"stimulation\"}, {\"source_node\": \"AGTR2\", \"target_node\": \"PPP3CC\", \"action\": \"stimulation\"}]}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1586,
+    "prompt_tokens": 1420,
+    "total_tokens": 3006,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 1280
+    },
+    "prompt_cache_hit_tokens": 1280,
+    "prompt_cache_miss_tokens": 140
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 62,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 5.39,
+  "interacciones": [
+    {
+      "source_node": "ADRA1A",
+      "target_node": "GNAQ",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADRA1A",
+      "target_node": "GNA11",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADRA1A",
+      "target_node": "PLCB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADRA1A",
+      "target_node": "PLCB3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADRA1A",
+      "target_node": "PRKCA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADRA1A",
+      "target_node": "Calcium ",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADRA1B",
+      "target_node": "GNAQ",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADRA1B",
+      "target_node": "GNA11",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADRA1B",
+      "target_node": "PLCB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADRA1B",
+      "target_node": "PLCB3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADRA1B",
+      "target_node": "PRKCA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADRA1B",
+      "target_node": "Calcium ",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADRA1D",
+      "target_node": "GNAQ",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADRA1D",
+      "target_node": "GNA11",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADRA1D",
+      "target_node": "PLCB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADRA1D",
+      "target_node": "PLCB3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADRA1D",
+      "target_node": "PRKCA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADRA1D",
+      "target_node": "Calcium ",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADRA2B",
+      "target_node": "ADCY5",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "ADRA2B",
+      "target_node": "ADCY6",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "ADRA2B",
+      "target_node": "ADCY2",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "ADRA2B",
+      "target_node": "ADCY8",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "ADRA2B",
+      "target_node": "cyclic AMP",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "ADRA2C",
+      "target_node": "ADCY5",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "ADRA2C",
+      "target_node": "ADCY6",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "ADRA2C",
+      "target_node": "ADCY2",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "ADRA2C",
+      "target_node": "ADCY8",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "ADRA2C",
+      "target_node": "cyclic AMP",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "ADCY5",
+      "target_node": "cyclic AMP",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADCY6",
+      "target_node": "cyclic AMP",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADCY2",
+      "target_node": "cyclic AMP",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADCY8",
+      "target_node": "cyclic AMP",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "AKT1",
+      "target_node": "FOXO1",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "AKT1",
+      "target_node": "FOXO3",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "AKT1",
+      "target_node": "FOXO4",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "AKT1",
+      "target_node": "MTOR",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "AKT1",
+      "target_node": "GSK3B",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "AKT2",
+      "target_node": "FOXO1",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "AKT2",
+      "target_node": "FOXO3",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "AKT2",
+      "target_node": "FOXO4",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "AKT2",
+      "target_node": "MTOR",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "AKT2",
+      "target_node": "GSK3B",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "AKT3",
+      "target_node": "FOXO1",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "AKT3",
+      "target_node": "FOXO3",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "AKT3",
+      "target_node": "FOXO4",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "AKT3",
+      "target_node": "MTOR",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "AKT3",
+      "target_node": "GSK3B",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "MYH6",
+      "target_node": "MYH7",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "MYH6",
+      "target_node": "Cell Area",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "AGT",
+      "target_node": "AGTR1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "AGT",
+      "target_node": "AGTR2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NPPA",
+      "target_node": "AtrialNatriureticFactor Input",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "AtrialNatriureticFactor Input",
+      "target_node": "NPR1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "AtrialNatriureticFactor Input",
+      "target_node": "cyclic Guanosine Monophosphate",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "AGTR1",
+      "target_node": "GNAQ",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "AGTR1",
+      "target_node": "GNA11",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "AGTR1",
+      "target_node": "PLCB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "AGTR1",
+      "target_node": "PLCB3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "AGTR1",
+      "target_node": "PRKCA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "AGTR2",
+      "target_node": "PPP3CA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "AGTR2",
+      "target_node": "PPP3CB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "AGTR2",
+      "target_node": "PPP3CC",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

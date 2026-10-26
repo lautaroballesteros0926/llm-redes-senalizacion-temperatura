@@ -1,0 +1,91 @@
+{
+  "timestamp_utc": "2026-10-26T01:52:02.056471+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 12,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 5 nodes! Thank you",
+  "content": "{\n  \"interactions\": [\n    {\"source_node\": \"MAPK7\", \"target_node\": \"MEF2A\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAPK7\", \"target_node\": \"MEF2C\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EDN1\", \"target_node\": \"EDNRA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EDN1\", \"target_node\": \"EDNRB\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EDNRB\", \"target_node\": \"GNAQ\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EDNRB\", \"target_node\": \"GNA11\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EDNRA\", \"target_node\": \"GNAQ\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EDNRA\", \"target_node\": \"GNA11\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PTK2\", \"target_node\": \"RAC1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PTK2\", \"target_node\": \"RHOA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PTK2\", \"target_node\": \"MAP3K1\", \"action\": \"stimulation\"}\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 298,
+    "prompt_tokens": 11485,
+    "total_tokens": 11783,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 11264
+    },
+    "prompt_cache_hit_tokens": 11264,
+    "prompt_cache_miss_tokens": 221
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 11,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 1.84,
+  "interacciones": [
+    {
+      "source_node": "MAPK7",
+      "target_node": "MEF2A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK7",
+      "target_node": "MEF2C",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDN1",
+      "target_node": "EDNRA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDN1",
+      "target_node": "EDNRB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRB",
+      "target_node": "GNAQ",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRB",
+      "target_node": "GNA11",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRA",
+      "target_node": "GNAQ",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRA",
+      "target_node": "GNA11",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PTK2",
+      "target_node": "RAC1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PTK2",
+      "target_node": "RHOA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PTK2",
+      "target_node": "MAP3K1",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

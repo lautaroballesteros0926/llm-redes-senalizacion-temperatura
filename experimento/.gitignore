@@ -1,0 +1,9 @@
+# Secretos: NUNCA subir
+.env
+*.env
+
+# Entorno y caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.tmp

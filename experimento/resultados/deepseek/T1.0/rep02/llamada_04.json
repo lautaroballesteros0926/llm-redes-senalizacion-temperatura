@@ -1,0 +1,225 @@
+{
+  "timestamp_utc": "2026-10-26T01:44:57.336963+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 4,
+  "intento": 1,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\n  \"interactions\": [\n    {\"source_node\": \"EIF2B1\", \"target_node\": \"EIF2B2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B1\", \"target_node\": \"EIF2B3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B1\", \"target_node\": \"EIF2B4\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B1\", \"target_node\": \"EIF2B5\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B2\", \"target_node\": \"EIF2B1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B2\", \"target_node\": \"EIF2B3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B2\", \"target_node\": \"EIF2B4\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B2\", \"target_node\": \"EIF2B5\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B3\", \"target_node\": \"EIF2B1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B3\", \"target_node\": \"EIF2B2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B3\", \"target_node\": \"EIF2B4\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B3\", \"target_node\": \"EIF2B5\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B4\", \"target_node\": \"EIF2B1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B4\", \"target_node\": \"EIF2B2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B4\", \"target_node\": \"EIF2B3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B4\", \"target_node\": \"EIF2B5\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B5\", \"target_node\": \"EIF2B1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B5\", \"target_node\": \"EIF2B2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B5\", \"target_node\": \"EIF2B3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B5\", \"target_node\": \"EIF2B4\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF4E\", \"target_node\": \"EIF4E2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF4E\", \"target_node\": \"EIF4E3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF4E2\", \"target_node\": \"EIF4E\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF4E2\", \"target_node\": \"EIF4E3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF4E3\", \"target_node\": \"EIF4E\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF4E3\", \"target_node\": \"EIF4E2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"ELK1\", \"target_node\": \"FOS\", \"action\": \"stimulation\"},\n    {\"source_node\": \"ELK1\", \"target_node\": \"SRF\", \"action\": \"stimulation\"},\n    {\"source_node\": \"ERBB2\", \"target_node\": \"ERBB3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"ERBB2\", \"target_node\": \"ERBB4\", \"action\": \"stimulation\"},\n    {\"source_node\": \"ERBB2\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"ERBB2\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"ERBB2\", \"target_node\": \"PIK3CA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"ERBB3\", \"target_node\": \"ERBB2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"ERBB3\", \"target_node\": \"PIK3CA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"ERBB3\", \"target_node\": \"PIK3CB\", \"action\": \"stimulation\"},\n    {\"source_node\": \"ERBB4\", \"target_node\": \"ERBB2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"ERBB4\", \"target_node\": \"PIK3CA\", \"action\": \"stimulation\"}\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1100,
+    "prompt_tokens": 4319,
+    "total_tokens": 5419,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 4096
+    },
+    "prompt_cache_hit_tokens": 4096,
+    "prompt_cache_miss_tokens": 223
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 38,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 3.96,
+  "interacciones": [
+    {
+      "source_node": "EIF2B1",
+      "target_node": "EIF2B2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B1",
+      "target_node": "EIF2B3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B1",
+      "target_node": "EIF2B4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B1",
+      "target_node": "EIF2B5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B2",
+      "target_node": "EIF2B1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B2",
+      "target_node": "EIF2B3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B2",
+      "target_node": "EIF2B4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B2",
+      "target_node": "EIF2B5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B3",
+      "target_node": "EIF2B1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B3",
+      "target_node": "EIF2B2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B3",
+      "target_node": "EIF2B4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B3",
+      "target_node": "EIF2B5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B4",
+      "target_node": "EIF2B1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B4",
+      "target_node": "EIF2B2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B4",
+      "target_node": "EIF2B3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B4",
+      "target_node": "EIF2B5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B5",
+      "target_node": "EIF2B1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B5",
+      "target_node": "EIF2B2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B5",
+      "target_node": "EIF2B3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B5",
+      "target_node": "EIF2B4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF4E",
+      "target_node": "EIF4E2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF4E",
+      "target_node": "EIF4E3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF4E2",
+      "target_node": "EIF4E",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF4E2",
+      "target_node": "EIF4E3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF4E3",
+      "target_node": "EIF4E",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF4E3",
+      "target_node": "EIF4E2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ELK1",
+      "target_node": "FOS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ELK1",
+      "target_node": "SRF",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB2",
+      "target_node": "ERBB3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB2",
+      "target_node": "ERBB4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB2",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB2",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB2",
+      "target_node": "PIK3CA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB3",
+      "target_node": "ERBB2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB3",
+      "target_node": "PIK3CA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB3",
+      "target_node": "PIK3CB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB4",
+      "target_node": "ERBB2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB4",
+      "target_node": "PIK3CA",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

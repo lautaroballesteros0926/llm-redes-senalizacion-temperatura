@@ -1,0 +1,256 @@
+{
+  "timestamp_utc": "2026-10-26T01:57:54.415855+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 4,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\n  \"interactions\": [\n    {\n      \"source_node\": \"ELK1\",\n      \"target_node\": \"FOS\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"ELK1\",\n      \"target_node\": \"SRF\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"ERBB2\",\n      \"target_node\": \"EGFR\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"ERBB2\",\n      \"target_node\": \"ERBB3\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"ERBB2\",\n      \"target_node\": \"ERBB4\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"ERBB3\",\n      \"target_node\": \"ERBB2\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"ERBB3\",\n      \"target_node\": \"ERBB4\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"ERBB4\",\n      \"target_node\": \"ERBB2\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"ERBB4\",\n      \"target_node\": \"ERBB3\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"MAPK1\",\n      \"target_node\": \"ELK1\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"MAPK1\",\n      \"target_node\": \"FOS\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"MAPK1\",\n      \"target_node\": \"MEF2A\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"MAPK1\",\n      \"target_node\": \"MEF2C\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"MAPK3\",\n      \"target_node\": \"ELK1\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"MAPK3\",\n      \"target_node\": \"FOS\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"MAPK3\",\n      \"target_node\": \"MEF2A\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"MAPK3\",\n      \"target_node\": \"MEF2C\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"MAPK7\",\n      \"target_node\": \"MEF2A\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"MAPK7\",\n      \"target_node\": \"MEF2C\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"MAPK7\",\n      \"target_node\": \"MEF2D\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"EDN1\",\n      \"target_node\": \"EDNRA\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"EDN1\",\n      \"target_node\": \"EDNRB\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"EDNRB\",\n      \"target_node\": \"GNAQ\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"EDNRB\",\n      \"target_node\": \"GNA11\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"EDNRA\",\n      \"target_node\": \"GNAQ\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"EDNRA\",\n      \"target_node\": \"GNA11\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"PTK2\",\n      \"target_node\": \"RAC1\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"PTK2\",\n      \"target_node\": \"RHOA\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF1\",\n      \"target_node\": \"FGFR1\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF1\",\n      \"target_node\": \"FGFR2\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF1\",\n      \"target_node\": \"FGFR3\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF1\",\n      \"target_node\": \"FGFR4\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF2\",\n      \"target_node\": \"FGFR1\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF2\",\n      \"target_node\": \"FGFR2\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF2\",\n      \"target_node\": \"FGFR3\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF2\",\n      \"target_node\": \"FGFR4\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF3\",\n      \"target_node\": \"FGFR1\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF3\",\n      \"target_node\": \"FGFR2\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF3\",\n      \"target_node\": \"FGFR3\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF3\",\n      \"target_node\": \"FGFR4\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF4\",\n      \"target_node\": \"FGFR1\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF4\",\n      \"target_node\": \"FGFR2\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF4\",\n      \"target_node\": \"FGFR3\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF4\",\n      \"target_node\": \"FGFR4\",\n      \"action\": \"stimulation\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1418,
+    "prompt_tokens": 5663,
+    "total_tokens": 7081,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 5504
+    },
+    "prompt_cache_hit_tokens": 5504,
+    "prompt_cache_miss_tokens": 159
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 44,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 4.89,
+  "interacciones": [
+    {
+      "source_node": "ELK1",
+      "target_node": "FOS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ELK1",
+      "target_node": "SRF",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB2",
+      "target_node": "EGFR",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB2",
+      "target_node": "ERBB3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB2",
+      "target_node": "ERBB4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB3",
+      "target_node": "ERBB2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB3",
+      "target_node": "ERBB4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB4",
+      "target_node": "ERBB2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB4",
+      "target_node": "ERBB3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK1",
+      "target_node": "ELK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK1",
+      "target_node": "FOS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK1",
+      "target_node": "MEF2A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK1",
+      "target_node": "MEF2C",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK3",
+      "target_node": "ELK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK3",
+      "target_node": "FOS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK3",
+      "target_node": "MEF2A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK3",
+      "target_node": "MEF2C",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK7",
+      "target_node": "MEF2A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK7",
+      "target_node": "MEF2C",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK7",
+      "target_node": "MEF2D",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDN1",
+      "target_node": "EDNRA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDN1",
+      "target_node": "EDNRB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRB",
+      "target_node": "GNAQ",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRB",
+      "target_node": "GNA11",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRA",
+      "target_node": "GNAQ",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRA",
+      "target_node": "GNA11",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PTK2",
+      "target_node": "RAC1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PTK2",
+      "target_node": "RHOA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF1",
+      "target_node": "FGFR1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF1",
+      "target_node": "FGFR2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF1",
+      "target_node": "FGFR3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF1",
+      "target_node": "FGFR4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF2",
+      "target_node": "FGFR1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF2",
+      "target_node": "FGFR2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF2",
+      "target_node": "FGFR3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF2",
+      "target_node": "FGFR4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF3",
+      "target_node": "FGFR1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF3",
+      "target_node": "FGFR2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF3",
+      "target_node": "FGFR3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF3",
+      "target_node": "FGFR4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF4",
+      "target_node": "FGFR1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF4",
+      "target_node": "FGFR2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF4",
+      "target_node": "FGFR3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF4",
+      "target_node": "FGFR4",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

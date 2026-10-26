@@ -1,0 +1,261 @@
+{
+  "timestamp_utc": "2026-10-26T01:56:33.566062+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 7,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\"interactions\": [{\"source_node\": \"FOXO1\", \"target_node\": \"NPPA\", \"action\": \"inhibition\"}, {\"source_node\": \"FOXO1\", \"target_node\": \"NPPB\", \"action\": \"inhibition\"}, {\"source_node\": \"FOXO1\", \"target_node\": \"Cell Area\", \"action\": \"inhibition\"}, {\"source_node\": \"FOXO1\", \"target_node\": \"MEF2A\", \"action\": \"inhibition\"}, {\"source_node\": \"FOXO3\", \"target_node\": \"NPPA\", \"action\": \"inhibition\"}, {\"source_node\": \"FOXO3\", \"target_node\": \"NPPB\", \"action\": \"inhibition\"}, {\"source_node\": \"FOXO3\", \"target_node\": \"Cell Area\", \"action\": \"inhibition\"}, {\"source_node\": \"FOXO3\", \"target_node\": \"MEF2A\", \"action\": \"inhibition\"}, {\"source_node\": \"FOXO4\", \"target_node\": \"NPPA\", \"action\": \"inhibition\"}, {\"source_node\": \"FOXO4\", \"target_node\": \"NPPB\", \"action\": \"inhibition\"}, {\"source_node\": \"FOXO4\", \"target_node\": \"Cell Area\", \"action\": \"inhibition\"}, {\"source_node\": \"AKT1\", \"target_node\": \"FOXO1\", \"action\": \"inhibition\"}, {\"source_node\": \"AKT1\", \"target_node\": \"FOXO3\", \"action\": \"inhibition\"}, {\"source_node\": \"AKT1\", \"target_node\": \"FOXO4\", \"action\": \"inhibition\"}, {\"source_node\": \"GNAQ\", \"target_node\": \"PLCB1\", \"action\": \"stimulation\"}, {\"source_node\": \"GNAQ\", \"target_node\": \"PLCB3\", \"action\": \"stimulation\"}, {\"source_node\": \"GNAQ\", \"target_node\": \"PLCB4\", \"action\": \"stimulation\"}, {\"source_node\": \"GNAQ\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"}, {\"source_node\": \"GNAQ\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"}, {\"source_node\": \"GNA11\", \"target_node\": \"PLCB1\", \"action\": \"stimulation\"}, {\"source_node\": \"GNA11\", \"target_node\": \"PLCB3\", \"action\": \"stimulation\"}, {\"source_node\": \"GNA11\", \"target_node\": \"PLCB4\", \"action\": \"stimulation\"}, {\"source_node\": \"GNA11\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"}, {\"source_node\": \"GNA11\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"}, {\"source_node\": \"GATA4\", \"target_node\": \"NPPA\", \"action\": \"stimulation\"}, {\"source_node\": \"GATA4\", \"target_node\": \"NPPB\", \"action\": \"stimulation\"}, {\"source_node\": \"GATA4\", \"target_node\": \"MYH6\", \"action\": \"stimulation\"}, {\"source_node\": \"GATA4\", \"target_node\": \"MYH7\", \"action\": \"stimulation\"}, {\"source_node\": \"GATA4\", \"target_node\": \"SRF\", \"action\": \"stimulation\"}, {\"source_node\": \"GATA4\", \"target_node\": \"Cell Area\", \"action\": \"stimulation\"}, {\"source_node\": \"GNB1\", \"target_node\": \"ADCY5\", \"action\": \"stimulation\"}, {\"source_node\": \"GNB1\", \"target_node\": \"ADCY6\", \"action\": \"stimulation\"}, {\"source_node\": \"GNB1\", \"target_node\": \"ADCY2\", \"action\": \"stimulation\"}, {\"source_node\": \"GNB1\", \"target_node\": \"ADCY8\", \"action\": \"stimulation\"}, {\"source_node\": \"GNB2\", \"target_node\": \"ADCY5\", \"action\": \"stimulation\"}, {\"source_node\": \"GNB2\", \"target_node\": \"ADCY6\", \"action\": \"stimulation\"}, {\"source_node\": \"GNB2\", \"target_node\": \"ADCY2\", \"action\": \"stimulation\"}, {\"source_node\": \"GNB3\", \"target_node\": \"ADCY5\", \"action\": \"stimulation\"}, {\"source_node\": \"GNB3\", \"target_node\": \"ADCY6\", \"action\": \"stimulation\"}, {\"source_node\": \"GNB4\", \"target_node\": \"ADCY5\", \"action\": \"stimulation\"}, {\"source_node\": \"GNB5\", \"target_node\": \"ADCY5\", \"action\": \"stimulation\"}, {\"source_node\": \"GNB1\", \"target_node\": \"GNAQ\", \"action\": \"stimulation\"}, {\"source_node\": \"GNB2\", \"target_node\": \"GNA11\", \"action\": \"stimulation\"}, {\"source_node\": \"GNAS\", \"target_node\": \"ADCY8\", \"action\": \"stimulation\"}, {\"source_node\": \"GNAS\", \"target_node\": \"cyclic AMP\", \"action\": \"stimulation\"}]}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1126,
+    "prompt_tokens": 13030,
+    "total_tokens": 14156,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 12800
+    },
+    "prompt_cache_hit_tokens": 12800,
+    "prompt_cache_miss_tokens": 230
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 45,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 4.17,
+  "interacciones": [
+    {
+      "source_node": "FOXO1",
+      "target_node": "NPPA",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "FOXO1",
+      "target_node": "NPPB",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "FOXO1",
+      "target_node": "Cell Area",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "FOXO1",
+      "target_node": "MEF2A",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "FOXO3",
+      "target_node": "NPPA",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "FOXO3",
+      "target_node": "NPPB",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "FOXO3",
+      "target_node": "Cell Area",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "FOXO3",
+      "target_node": "MEF2A",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "FOXO4",
+      "target_node": "NPPA",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "FOXO4",
+      "target_node": "NPPB",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "FOXO4",
+      "target_node": "Cell Area",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "AKT1",
+      "target_node": "FOXO1",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "AKT1",
+      "target_node": "FOXO3",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "AKT1",
+      "target_node": "FOXO4",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNAQ",
+      "target_node": "PLCB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNAQ",
+      "target_node": "PLCB3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNAQ",
+      "target_node": "PLCB4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNAQ",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNAQ",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNA11",
+      "target_node": "PLCB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNA11",
+      "target_node": "PLCB3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNA11",
+      "target_node": "PLCB4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNA11",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNA11",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GATA4",
+      "target_node": "NPPA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GATA4",
+      "target_node": "NPPB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GATA4",
+      "target_node": "MYH6",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GATA4",
+      "target_node": "MYH7",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GATA4",
+      "target_node": "SRF",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GATA4",
+      "target_node": "Cell Area",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNB1",
+      "target_node": "ADCY5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNB1",
+      "target_node": "ADCY6",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNB1",
+      "target_node": "ADCY2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNB1",
+      "target_node": "ADCY8",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNB2",
+      "target_node": "ADCY5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNB2",
+      "target_node": "ADCY6",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNB2",
+      "target_node": "ADCY2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNB3",
+      "target_node": "ADCY5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNB3",
+      "target_node": "ADCY6",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNB4",
+      "target_node": "ADCY5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNB5",
+      "target_node": "ADCY5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNB1",
+      "target_node": "GNAQ",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNB2",
+      "target_node": "GNA11",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNAS",
+      "target_node": "ADCY8",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNAS",
+      "target_node": "cyclic AMP",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

@@ -1,0 +1,136 @@
+{
+  "timestamp_utc": "2026-10-26T01:54:26.157770+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 12,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 5 nodes! Thank you",
+  "content": "{\"interactions\": [{\"source_node\": \"NFAT5\", \"target_node\": \"NPPA\", \"action\": \"stimulation\"}, {\"source_node\": \"NFAT5\", \"target_node\": \"NPPB\", \"action\": \"stimulation\"}, {\"source_node\": \"NFAT5\", \"target_node\": \"MYH7\", \"action\": \"stimulation\"}, {\"source_node\": \"NFAT5\", \"target_node\": \"Cell Area\", \"action\": \"stimulation\"}, {\"source_node\": \"NFKB1\", \"target_node\": \"NPPA\", \"action\": \"stimulation\"}, {\"source_node\": \"NFKB1\", \"target_node\": \"NPPB\", \"action\": \"stimulation\"}, {\"source_node\": \"NFKB1\", \"target_node\": \"IL6\", \"action\": \"stimulation\"}, {\"source_node\": \"NFKB1\", \"target_node\": \"NFKBIA\", \"action\": \"stimulation\"}, {\"source_node\": \"MAP3K14\", \"target_node\": \"IKBKB\", \"action\": \"stimulation\"}, {\"source_node\": \"MAP3K14\", \"target_node\": \"NFKB1\", \"action\": \"stimulation\"}, {\"source_node\": \"MAP3K14\", \"target_node\": \"MAP2K4\", \"action\": \"stimulation\"}, {\"source_node\": \"MAP3K14\", \"target_node\": \"MAP2K7\", \"action\": \"stimulation\"}, {\"source_node\": \"NOS3\", \"target_node\": \"GUCY1A2\", \"action\": \"stimulation\"}, {\"source_node\": \"NOS3\", \"target_node\": \"GUCY1A3\", \"action\": \"stimulation\"}, {\"source_node\": \"NOS3\", \"target_node\": \"GUCY1B3\", \"action\": \"stimulation\"}, {\"source_node\": \"NOS3\", \"target_node\": \"cyclic Guanosine Monophosphate\", \"action\": \"stimulation\"}, {\"source_node\": \"NRG1\", \"target_node\": \"ERBB2\", \"action\": \"stimulation\"}, {\"source_node\": \"NRG1\", \"target_node\": \"ERBB3\", \"action\": \"stimulation\"}, {\"source_node\": \"NRG1\", \"target_node\": \"ERBB4\", \"action\": \"stimulation\"}, {\"source_node\": \"NRG1\", \"target_node\": \"PIK3CA\", \"action\": \"stimulation\"}]}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 520,
+    "prompt_tokens": 14850,
+    "total_tokens": 15370,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 14592
+    },
+    "prompt_cache_hit_tokens": 14592,
+    "prompt_cache_miss_tokens": 258
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 20,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 2.92,
+  "interacciones": [
+    {
+      "source_node": "NFAT5",
+      "target_node": "NPPA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NFAT5",
+      "target_node": "NPPB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NFAT5",
+      "target_node": "MYH7",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NFAT5",
+      "target_node": "Cell Area",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NFKB1",
+      "target_node": "NPPA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NFKB1",
+      "target_node": "NPPB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NFKB1",
+      "target_node": "IL6",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NFKB1",
+      "target_node": "NFKBIA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K14",
+      "target_node": "IKBKB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K14",
+      "target_node": "NFKB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K14",
+      "target_node": "MAP2K4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K14",
+      "target_node": "MAP2K7",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NOS3",
+      "target_node": "GUCY1A2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NOS3",
+      "target_node": "GUCY1A3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NOS3",
+      "target_node": "GUCY1B3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NOS3",
+      "target_node": "cyclic Guanosine Monophosphate",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NRG1",
+      "target_node": "ERBB2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NRG1",
+      "target_node": "ERBB3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NRG1",
+      "target_node": "ERBB4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NRG1",
+      "target_node": "PIK3CA",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

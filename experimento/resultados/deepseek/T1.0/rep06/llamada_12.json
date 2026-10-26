@@ -1,0 +1,61 @@
+{
+  "timestamp_utc": "2026-10-26T01:55:49.531606+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 12,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 5 nodes! Thank you",
+  "content": "{\"interactions\": [{\"source_node\": \"ADRA1A\", \"target_node\": \"PRKCA\", \"action\": \"stimulation\"}, {\"source_node\": \"ADRA1B\", \"target_node\": \"PRKCB\", \"action\": \"stimulation\"}, {\"source_node\": \"ADRA1D\", \"target_node\": \"PRKCD\", \"action\": \"stimulation\"}, {\"source_node\": \"ADRA2B\", \"target_node\": \"PRKACA\", \"action\": \"inhibition\"}, {\"source_node\": \"ADRA2C\", \"target_node\": \"PRKACB\", \"action\": \"inhibition\"}]}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 138,
+    "prompt_tokens": 9327,
+    "total_tokens": 9465,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 9088
+    },
+    "prompt_cache_hit_tokens": 9088,
+    "prompt_cache_miss_tokens": 239
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 5,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 1.57,
+  "interacciones": [
+    {
+      "source_node": "ADRA1A",
+      "target_node": "PRKCA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADRA1B",
+      "target_node": "PRKCB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADRA1D",
+      "target_node": "PRKCD",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ADRA2B",
+      "target_node": "PRKACA",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "ADRA2C",
+      "target_node": "PRKACB",
+      "action": "inhibition"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

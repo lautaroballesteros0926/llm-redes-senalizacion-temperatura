@@ -1,0 +1,466 @@
+{
+  "timestamp_utc": "2026-10-26T01:48:54.591699+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 0.0,
+  "llamada": 9,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\n  \"interactions\": [\n    {\"source_node\": \"PRKD1\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD1\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD1\", \"target_node\": \"RAF1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD1\", \"target_node\": \"MAP2K1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD1\", \"target_node\": \"MAP2K2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD1\", \"target_node\": \"FOS\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD1\", \"target_node\": \"JUN\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD1\", \"target_node\": \"NPPA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD1\", \"target_node\": \"NPPB\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD2\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD2\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD2\", \"target_node\": \"RAF1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD2\", \"target_node\": \"MAP2K1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD2\", \"target_node\": \"MAP2K2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD2\", \"target_node\": \"FOS\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD2\", \"target_node\": \"JUN\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD2\", \"target_node\": \"NPPA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD2\", \"target_node\": \"NPPB\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD3\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD3\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD3\", \"target_node\": \"RAF1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD3\", \"target_node\": \"MAP2K1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD3\", \"target_node\": \"MAP2K2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD3\", \"target_node\": \"FOS\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD3\", \"target_node\": \"JUN\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD3\", \"target_node\": \"NPPA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKD3\", \"target_node\": \"NPPB\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PRKG1\", \"target_node\": \"MAPK1\", \"action\": \"inhibition\"},\n    {\"source_node\": \"PRKG1\", \"target_node\": \"MAPK3\", \"action\": \"inhibition\"},\n    {\"source_node\": \"PRKG1\", \"target_node\": \"RAF1\", \"action\": \"inhibition\"},\n    {\"source_node\": \"PRKG1\", \"target_node\": \"MAP2K1\", \"action\": \"inhibition\"},\n    {\"source_node\": \"PRKG1\", \"target_node\": \"MAP2K2\", \"action\": \"inhibition\"},\n    {\"source_node\": \"PRKG1\", \"target_node\": \"NPPA\", \"action\": \"inhibition\"},\n    {\"source_node\": \"PRKG1\", \"target_node\": \"NPPB\", \"action\": \"inhibition\"},\n    {\"source_node\": \"PLCB1\", \"target_node\": \"Diacylglycerol\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCB1\", \"target_node\": \"Inositol Triphosphate\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCB1\", \"target_node\": \"PRKCA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCB1\", \"target_node\": \"PRKCB\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCB1\", \"target_node\": \"PRKCG\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCB3\", \"target_node\": \"Diacylglycerol\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCB3\", \"target_node\": \"Inositol Triphosphate\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCB3\", \"target_node\": \"PRKCA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCB3\", \"target_node\": \"PRKCB\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCB3\", \"target_node\": \"PRKCG\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCB4\", \"target_node\": \"Diacylglycerol\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCB4\", \"target_node\": \"Inositol Triphosphate\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCB4\", \"target_node\": \"PRKCA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCB4\", \"target_node\": \"PRKCB\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCB4\", \"target_node\": \"PRKCG\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCG1\", \"target_node\": \"Diacylglycerol\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCG1\", \"target_node\": \"Inositol Triphosphate\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCG1\", \"target_node\": \"PRKCA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCG1\", \"target_node\": \"PRKCB\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PLCG1\", \"target_node\": \"PRKCG\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RAC1\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RAC1\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RAC1\", \"target_node\": \"MAPK8\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RAC1\", \"target_node\": \"JUN\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RAC1\", \"target_node\": \"RHOA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RAF1\", \"target_node\": \"MAP2K1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RAF1\", \"target_node\": \"MAP2K2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RAF1\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RAF1\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Activated Raf1\", \"target_node\": \"MAP2K1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Activated Raf1\", \"target_node\": \"MAP2K2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Activated Raf1\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Activated Raf1\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"HRAS\", \"target_node\": \"RAF1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"HRAS\", \"target_node\": \"PIK3CA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"HRAS\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"HRAS\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"KRAS\", \"target_node\": \"RAF1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"KRAS\", \"target_node\": \"PIK3CA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"KRAS\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"KRAS\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RHO\", \"target_node\": \"RHOA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RHO\", \"target_node\": \"RHOB\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RHO\", \"target_node\": \"RAC1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RHOA\", \"target_node\": \"RAC1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RHOA\", \"target_node\": \"RHOB\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RHOA\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RHOA\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RHOB\", \"target_node\": \"RHOA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RHOB\", \"target_node\": \"RAC1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RHOB\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RHOB\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"}\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 2239,
+    "prompt_tokens": 25480,
+    "total_tokens": 27719,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 25344
+    },
+    "prompt_cache_hit_tokens": 25344,
+    "prompt_cache_miss_tokens": 136
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 86,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 7.39,
+  "interacciones": [
+    {
+      "source_node": "PRKD1",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD1",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD1",
+      "target_node": "RAF1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD1",
+      "target_node": "MAP2K1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD1",
+      "target_node": "MAP2K2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD1",
+      "target_node": "FOS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD1",
+      "target_node": "JUN",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD1",
+      "target_node": "NPPA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD1",
+      "target_node": "NPPB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD2",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD2",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD2",
+      "target_node": "RAF1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD2",
+      "target_node": "MAP2K1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD2",
+      "target_node": "MAP2K2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD2",
+      "target_node": "FOS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD2",
+      "target_node": "JUN",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD2",
+      "target_node": "NPPA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD2",
+      "target_node": "NPPB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD3",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD3",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD3",
+      "target_node": "RAF1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD3",
+      "target_node": "MAP2K1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD3",
+      "target_node": "MAP2K2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD3",
+      "target_node": "FOS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD3",
+      "target_node": "JUN",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD3",
+      "target_node": "NPPA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD3",
+      "target_node": "NPPB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKG1",
+      "target_node": "MAPK1",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "PRKG1",
+      "target_node": "MAPK3",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "PRKG1",
+      "target_node": "RAF1",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "PRKG1",
+      "target_node": "MAP2K1",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "PRKG1",
+      "target_node": "MAP2K2",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "PRKG1",
+      "target_node": "NPPA",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "PRKG1",
+      "target_node": "NPPB",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "PLCB1",
+      "target_node": "Diacylglycerol",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCB1",
+      "target_node": "Inositol Triphosphate",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCB1",
+      "target_node": "PRKCA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCB1",
+      "target_node": "PRKCB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCB1",
+      "target_node": "PRKCG",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCB3",
+      "target_node": "Diacylglycerol",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCB3",
+      "target_node": "Inositol Triphosphate",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCB3",
+      "target_node": "PRKCA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCB3",
+      "target_node": "PRKCB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCB3",
+      "target_node": "PRKCG",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCB4",
+      "target_node": "Diacylglycerol",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCB4",
+      "target_node": "Inositol Triphosphate",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCB4",
+      "target_node": "PRKCA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCB4",
+      "target_node": "PRKCB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCB4",
+      "target_node": "PRKCG",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCG1",
+      "target_node": "Diacylglycerol",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCG1",
+      "target_node": "Inositol Triphosphate",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCG1",
+      "target_node": "PRKCA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCG1",
+      "target_node": "PRKCB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCG1",
+      "target_node": "PRKCG",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RAC1",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RAC1",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RAC1",
+      "target_node": "MAPK8",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RAC1",
+      "target_node": "JUN",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RAC1",
+      "target_node": "RHOA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RAF1",
+      "target_node": "MAP2K1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RAF1",
+      "target_node": "MAP2K2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RAF1",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RAF1",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Activated Raf1",
+      "target_node": "MAP2K1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Activated Raf1",
+      "target_node": "MAP2K2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Activated Raf1",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Activated Raf1",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "HRAS",
+      "target_node": "RAF1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "HRAS",
+      "target_node": "PIK3CA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "HRAS",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "HRAS",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "KRAS",
+      "target_node": "RAF1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "KRAS",
+      "target_node": "PIK3CA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "KRAS",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "KRAS",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RHO",
+      "target_node": "RHOA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RHO",
+      "target_node": "RHOB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RHO",
+      "target_node": "RAC1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RHOA",
+      "target_node": "RAC1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RHOA",
+      "target_node": "RHOB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RHOA",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RHOA",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RHOB",
+      "target_node": "RHOA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RHOB",
+      "target_node": "RAC1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RHOB",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RHOB",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

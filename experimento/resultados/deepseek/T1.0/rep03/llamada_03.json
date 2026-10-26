@@ -1,0 +1,166 @@
+{
+  "timestamp_utc": "2026-10-26T01:51:31.597037+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 3,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\n  \"interactions\": [\n    {\"source_node\": \"EDN1\", \"target_node\": \"EDNRA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EDN1\", \"target_node\": \"EDNRB\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EDNRB\", \"target_node\": \"GNAQ\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EDNRA\", \"target_node\": \"GNAQ\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PTK2\", \"target_node\": \"RAC1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FGF1\", \"target_node\": \"FGFR1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FGF2\", \"target_node\": \"FGFR1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FGF3\", \"target_node\": \"FGFR2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FGF4\", \"target_node\": \"FGFR2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FGF5\", \"target_node\": \"FGFR3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FGF6\", \"target_node\": \"FGFR4\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FGF7\", \"target_node\": \"FGFR2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FGF8\", \"target_node\": \"FGFR3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FGF9\", \"target_node\": \"FGFR3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FGF10\", \"target_node\": \"FGFR2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FGF12\", \"target_node\": \"FGFR1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FGF13\", \"target_node\": \"FGFR1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FGF19\", \"target_node\": \"FGFR4\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FGF23\", \"target_node\": \"FGFR4\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FGFR4\", \"target_node\": \"HRAS\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FGFR2\", \"target_node\": \"HRAS\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FGFR1\", \"target_node\": \"HRAS\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FGFR3\", \"target_node\": \"HRAS\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FOXO1\", \"target_node\": \"MEF2A\", \"action\": \"inhibition\"},\n    {\"source_node\": \"FOXO3\", \"target_node\": \"MEF2B\", \"action\": \"inhibition\"},\n    {\"source_node\": \"FOXO4\", \"target_node\": \"MEF2C\", \"action\": \"inhibition\"}\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 685,
+    "prompt_tokens": 3731,
+    "total_tokens": 4416,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 3584
+    },
+    "prompt_cache_hit_tokens": 3584,
+    "prompt_cache_miss_tokens": 147
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 26,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 2.87,
+  "interacciones": [
+    {
+      "source_node": "EDN1",
+      "target_node": "EDNRA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDN1",
+      "target_node": "EDNRB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRB",
+      "target_node": "GNAQ",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EDNRA",
+      "target_node": "GNAQ",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PTK2",
+      "target_node": "RAC1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF1",
+      "target_node": "FGFR1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF2",
+      "target_node": "FGFR1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF3",
+      "target_node": "FGFR2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF4",
+      "target_node": "FGFR2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF5",
+      "target_node": "FGFR3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF6",
+      "target_node": "FGFR4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF7",
+      "target_node": "FGFR2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF8",
+      "target_node": "FGFR3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF9",
+      "target_node": "FGFR3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF10",
+      "target_node": "FGFR2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF12",
+      "target_node": "FGFR1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF13",
+      "target_node": "FGFR1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF19",
+      "target_node": "FGFR4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF23",
+      "target_node": "FGFR4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGFR4",
+      "target_node": "HRAS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGFR2",
+      "target_node": "HRAS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGFR1",
+      "target_node": "HRAS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGFR3",
+      "target_node": "HRAS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FOXO1",
+      "target_node": "MEF2A",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "FOXO3",
+      "target_node": "MEF2B",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "FOXO4",
+      "target_node": "MEF2C",
+      "action": "inhibition"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

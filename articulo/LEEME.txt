@@ -1,0 +1,44 @@
+ARTÍCULO DEL CURSO DE BIOLOGÍA COMPUTACIONAL (plantilla OUP)
+============================================================
+
+Archivos
+--------
+main.tex                      Texto del artículo (en español).
+referencias.bib               Bibliografía (todas las entradas fueron verificadas; ver más abajo).
+oup-authoring-template.cls    Plantilla de Oxford University Press (COPIA modificada, ver "Cambios a la plantilla").
+oup-plain.bst, oup-abbrvnat.bst   Estilos de bibliografía de la plantilla (sin cambios).
+Fig/                          Figuras PNG (las generó el cuaderno experimento/03_analisis_experimento.ipynb).
+compilar.ps1                  Script para compilar en Windows con MiKTeX.
+articulo_overleaf.zip         Todo lo necesario para subir a Overleaf.
+main.pdf                      Última versión compilada.
+
+Cómo compilar en Overleaf
+-------------------------
+1. En Overleaf: New Project -> Upload Project -> elige articulo_overleaf.zip.
+2. Menu -> Compiler: pdfLaTeX (por defecto). Main document: main.tex. Pulsa Recompile.
+   (Overleaf ejecuta bibtex solo.)
+
+Cómo compilar en tu PC (Windows)
+--------------------------------
+MiKTeX ya está instalado en este equipo. Abre PowerShell en esta carpeta y ejecuta:   .\compilar.ps1
+Si MiKTeX pide instalar algún paquete, acepta ("Install missing packages: Yes").
+Compilación manual:  pdflatex main  ->  bibtex main  ->  pdflatex main  ->  pdflatex main
+
+Cambios a la plantilla (solo en la COPIA de esta carpeta; la original está intacta)
+----------------------------------------------------------------------------------
+- "Abstract" -> "Resumen" (título del resumen).
+- "and" -> "y" entre autores y direcciones.
+- Se quitó "Volume/Issue" de la cabecera, el recuadro gris del logotipo y el aviso de copyright de la editorial.
+- En main.tex: babel en español (sin atajos, para que TikZ funcione) y tablas llamadas "Tabla".
+
+Pendientes (busca "TODO" en rojo en el PDF)
+-------------------------------------------
+- Proyecto B (sección 3): reservada en blanco para Omar Quipe Santos (y ampliar "RNA-Seq" en el glosario).
+- URL del repositorio de GitHub en la sección "Disponibilidad de datos y código".
+
+Referencias verificadas (25-oct-2026)
+-------------------------------------
+- Con DOI, comprobadas en Crossref: Ryall 2012, Zeigler 2016, Tan 2017, Clark 2025, Tewari 2026, Welch 1947, Jaccard 1912, SciPy 2020, NumPy 2020, pandas 2010, Matplotlib 2007.
+- Preprints de arXiv comprobados en la página oficial: Vaswani 2017, Brown 2020, Atil 2024, Ouyang 2023.
+- Páginas web (DeepSeek) y repositorio de GitHub: consultados el 25-oct-2026.
+- Ninguna referencia quedó dudosa. Si agregas otras, verifícalas antes de citarlas.

@@ -1,0 +1,121 @@
+{
+  "timestamp_utc": "2026-10-26T01:55:12.836392+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 12,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 5 nodes! Thank you",
+  "content": "{\"interactions\": [{\"source_node\": \"PIK3CA\", \"target_node\": \"AKT1\", \"action\": \"stimulation\"}, {\"source_node\": \"PIK3CA\", \"target_node\": \"AKT2\", \"action\": \"stimulation\"}, {\"source_node\": \"PIK3CA\", \"target_node\": \"PDPK1\", \"action\": \"stimulation\"}, {\"source_node\": \"PIK3CA\", \"target_node\": \"RPS6KB1\", \"action\": \"stimulation\"}, {\"source_node\": \"PIK3CB\", \"target_node\": \"AKT1\", \"action\": \"stimulation\"}, {\"source_node\": \"PIK3CB\", \"target_node\": \"AKT3\", \"action\": \"stimulation\"}, {\"source_node\": \"PIK3CB\", \"target_node\": \"PDPK1\", \"action\": \"stimulation\"}, {\"source_node\": \"PIK3CD\", \"target_node\": \"AKT1\", \"action\": \"stimulation\"}, {\"source_node\": \"PIK3CD\", \"target_node\": \"AKT2\", \"action\": \"stimulation\"}, {\"source_node\": \"PIK3CD\", \"target_node\": \"PDPK1\", \"action\": \"stimulation\"}, {\"source_node\": \"PIK3CG\", \"target_node\": \"AKT1\", \"action\": \"stimulation\"}, {\"source_node\": \"PIK3CG\", \"target_node\": \"PDPK1\", \"action\": \"stimulation\"}, {\"source_node\": \"PRKACA\", \"target_node\": \"CREB1\", \"action\": \"stimulation\"}, {\"source_node\": \"PRKACA\", \"target_node\": \"NPPA\", \"action\": \"stimulation\"}, {\"source_node\": \"PRKACA\", \"target_node\": \"MAP3K7\", \"action\": \"stimulation\"}, {\"source_node\": \"PRKACA\", \"target_node\": \"HDAC4\", \"action\": \"inhibition\"}, {\"source_node\": \"PRKACA\", \"target_node\": \"HDAC5\", \"action\": \"inhibition\"}]}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 451,
+    "prompt_tokens": 13191,
+    "total_tokens": 13642,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 13056
+    },
+    "prompt_cache_hit_tokens": 13056,
+    "prompt_cache_miss_tokens": 135
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 17,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 2.53,
+  "interacciones": [
+    {
+      "source_node": "PIK3CA",
+      "target_node": "AKT1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3CA",
+      "target_node": "AKT2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3CA",
+      "target_node": "PDPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3CA",
+      "target_node": "RPS6KB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3CB",
+      "target_node": "AKT1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3CB",
+      "target_node": "AKT3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3CB",
+      "target_node": "PDPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3CD",
+      "target_node": "AKT1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3CD",
+      "target_node": "AKT2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3CD",
+      "target_node": "PDPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3CG",
+      "target_node": "AKT1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3CG",
+      "target_node": "PDPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKACA",
+      "target_node": "CREB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKACA",
+      "target_node": "NPPA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKACA",
+      "target_node": "MAP3K7",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKACA",
+      "target_node": "HDAC4",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "PRKACA",
+      "target_node": "HDAC5",
+      "action": "inhibition"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

@@ -1,0 +1,45 @@
+[20:42:57] Modelo deepseek-flash | 225 genes | max_connections=14 | saldo inicial USD 2.00
+[20:42:58] === T=1.0 rep01 (pasada 1) ===
+   llamada 1/12: ok, 71 interacciones, 3296 tokens
+   llamada 2/12: ok, 82 interacciones, 5496 tokens
+   llamada 3/12: ok, 73 interacciones, 7510 tokens
+   llamada 4/12: ok, 50 interacciones, 8861 tokens
+   llamada 5/12: ok, 39 interacciones, 9909 tokens
+   llamada 6/12: ok, 56 interacciones, 11397 tokens
+   llamada 7/12: ok, 37 interacciones, 12406 tokens
+   llamada 8/12: ok, 36 interacciones, 13388 tokens
+   llamada 9/12: ok, 22 interacciones, 13990 tokens
+   llamada 10/12: ok, 38 interacciones, 15070 tokens
+   llamada 11/12: ok, 37 interacciones, 16102 tokens
+   llamada 12/12: ok, 22 interacciones, 16715 tokens
+[20:43:55] T=1.0 rep01: COMPLETA, 563 interacciones, 57s, saldo USD 1.99
+[20:43:56] === T=0.0 rep01 (pasada 1) ===
+   llamada 1: malformada (JSON inválido: Expecting value: line 153 column 80 (char 12226)); intento 1/2
+   llamada 1/12: ok, 120 interacciones, 4592 tokens
+   llamada 2: malformada (JSON inválido: Unterminated string starting at: line 152 column 21 (char 12112)); intento 1/2
+   llamada 2: malformada (JSON inválido: Expecting property name enclosed in double quotes: line 152 column 30 (char 12017)); intento 2/2
+[20:44:42] T=0.0 rep01: INCOMPLETA, 120 interacciones, 46s, saldo USD 1.99
+[20:44:42] === T=1.0 rep02 (pasada 1) ===
+   llamada 1/12: ok, 33 interacciones, 2294 tokens
+   llamada 2/12: ok, 37 interacciones, 3302 tokens
+   llamada 3/12: ok, 37 interacciones, 4297 tokens
+   llamada 4/12: ok, 38 interacciones, 5419 tokens
+   llamada 5/12: ok, 37 interacciones, 6417 tokens
+   llamada 6/12: ok, 37 interacciones, 7407 tokens
+   llamada 7/12: ok, 33 interacciones, 8322 tokens
+   llamada 8/12: ok, 32 interacciones, 9202 tokens
+   llamada 9/12: ok, 32 interacciones, 10106 tokens
+   llamada 10/12: ok, 34 interacciones, 11056 tokens
+   llamada 11/12: ok, 34 interacciones, 12028 tokens
+   llamada 12/12: ok, 23 interacciones, 12659 tokens
+[20:45:25] T=1.0 rep02: COMPLETA, 407 interacciones, 43s, saldo USD 1.99
+[20:45:26] === T=0.0 rep02 (pasada 1) ===
+   llamada 1/12: ok, 69 interacciones, 3163 tokens
+   llamada 2/12: ok, 41 interacciones, 4232 tokens
+   llamada 3/12: ok, 54 interacciones, 5624 tokens
+   llamada 4/12: ok, 42 interacciones, 6733 tokens
+   llamada 5/12: ok, 40 interacciones, 7808 tokens
+   llamada 6/12: ok, 39 interacciones, 8826 tokens
+   llamada 7/12: ok, 40 interacciones, 9926 tokens
+   llamada 8/12: ok, 20 interacciones, 10514 tokens
+   llamada 9/12: ok, 41 interacciones, 11606 tokens

@@ -1,0 +1,220 @@
+{
+  "timestamp_utc": "2026-10-26T01:43:52.126255+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 11,
+  "intento": 1,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\n  \"interactions\": [\n    {\"source_node\": \"MAP2K1\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAP2K1\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAP2K2\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAP2K2\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAP2K3\", \"target_node\": \"MAPK14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAP2K3\", \"target_node\": \"MAPK11\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAP2K3\", \"target_node\": \"MAPK12\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAP2K3\", \"target_node\": \"MAPK13\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAP2K6\", \"target_node\": \"MAPK14\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAP2K6\", \"target_node\": \"MAPK11\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAP2K6\", \"target_node\": \"MAPK12\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAP2K6\", \"target_node\": \"MAPK13\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAP2K4\", \"target_node\": \"MAPK8\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAP2K7\", \"target_node\": \"MAPK8\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAP2K5\", \"target_node\": \"MAPK7\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAP3K1\", \"target_node\": \"MAP2K4\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAP3K1\", \"target_node\": \"MAP2K7\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAP3K1\", \"target_node\": \"MAP2K1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAP3K1\", \"target_node\": \"MAP2K2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RPS6KB1\", \"target_node\": \"EIF4E\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RPS6KB1\", \"target_node\": \"EIF4E2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RPS6KB1\", \"target_node\": \"EIF4E3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MTOR\", \"target_node\": \"RPS6KB1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Norepinephrine\", \"target_node\": \"ADRA1A\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Norepinephrine\", \"target_node\": \"ADRA1B\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Norepinephrine\", \"target_node\": \"ADRA1D\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Norepinephrine\", \"target_node\": \"ADRB1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Norepinephrine\", \"target_node\": \"ADRB2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Norepinephrine\", \"target_node\": \"ADRB3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Norepinephrine\", \"target_node\": \"ADRA2B\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Norepinephrine\", \"target_node\": \"ADRA2C\", \"action\": \"stimulation\"},\n    {\"source_node\": \"NFAT5\", \"target_node\": \"NPPA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"NFAT5\", \"target_node\": \"NPPB\", \"action\": \"stimulation\"},\n    {\"source_node\": \"NFKB1\", \"target_node\": \"NPPA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"NFKB1\", \"target_node\": \"NPPB\", \"action\": \"stimulation\"},\n    {\"source_node\": \"NFKB1\", \"target_node\": \"IL6\", \"action\": \"stimulation\"},\n    {\"source_node\": \"NFKB1\", \"target_node\": \"TNF\", \"action\": \"stimulation\"}\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1010,
+    "prompt_tokens": 15092,
+    "total_tokens": 16102,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 14848
+    },
+    "prompt_cache_hit_tokens": 14848,
+    "prompt_cache_miss_tokens": 244
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 37,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 3.98,
+  "interacciones": [
+    {
+      "source_node": "MAP2K1",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP2K1",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP2K2",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP2K2",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP2K3",
+      "target_node": "MAPK14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP2K3",
+      "target_node": "MAPK11",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP2K3",
+      "target_node": "MAPK12",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP2K3",
+      "target_node": "MAPK13",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP2K6",
+      "target_node": "MAPK14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP2K6",
+      "target_node": "MAPK11",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP2K6",
+      "target_node": "MAPK12",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP2K6",
+      "target_node": "MAPK13",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP2K4",
+      "target_node": "MAPK8",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP2K7",
+      "target_node": "MAPK8",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP2K5",
+      "target_node": "MAPK7",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K1",
+      "target_node": "MAP2K4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K1",
+      "target_node": "MAP2K7",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K1",
+      "target_node": "MAP2K1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAP3K1",
+      "target_node": "MAP2K2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RPS6KB1",
+      "target_node": "EIF4E",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RPS6KB1",
+      "target_node": "EIF4E2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RPS6KB1",
+      "target_node": "EIF4E3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MTOR",
+      "target_node": "RPS6KB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Norepinephrine",
+      "target_node": "ADRA1A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Norepinephrine",
+      "target_node": "ADRA1B",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Norepinephrine",
+      "target_node": "ADRA1D",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Norepinephrine",
+      "target_node": "ADRB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Norepinephrine",
+      "target_node": "ADRB2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Norepinephrine",
+      "target_node": "ADRB3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Norepinephrine",
+      "target_node": "ADRA2B",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Norepinephrine",
+      "target_node": "ADRA2C",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NFAT5",
+      "target_node": "NPPA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NFAT5",
+      "target_node": "NPPB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NFKB1",
+      "target_node": "NPPA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NFKB1",
+      "target_node": "NPPB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NFKB1",
+      "target_node": "IL6",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NFKB1",
+      "target_node": "TNF",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

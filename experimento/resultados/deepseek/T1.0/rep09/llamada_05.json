@@ -1,0 +1,236 @@
+{
+  "timestamp_utc": "2026-10-26T01:57:58.838949+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 5,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\n  \"interactions\": [\n    {\n      \"source_node\": \"FGF5\",\n      \"target_node\": \"FGFR1\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF5\",\n      \"target_node\": \"FGFR2\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF5\",\n      \"target_node\": \"FGFR3\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF5\",\n      \"target_node\": \"FGFR4\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF6\",\n      \"target_node\": \"FGFR1\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF6\",\n      \"target_node\": \"FGFR2\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF6\",\n      \"target_node\": \"FGFR3\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF6\",\n      \"target_node\": \"FGFR4\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF7\",\n      \"target_node\": \"FGFR1\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF7\",\n      \"target_node\": \"FGFR2\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF7\",\n      \"target_node\": \"FGFR3\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF7\",\n      \"target_node\": \"FGFR4\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF8\",\n      \"target_node\": \"FGFR1\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF8\",\n      \"target_node\": \"FGFR2\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF8\",\n      \"target_node\": \"FGFR3\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF8\",\n      \"target_node\": \"FGFR4\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF9\",\n      \"target_node\": \"FGFR1\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF9\",\n      \"target_node\": \"FGFR2\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF9\",\n      \"target_node\": \"FGFR3\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF9\",\n      \"target_node\": \"FGFR4\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF10\",\n      \"target_node\": \"FGFR1\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF10\",\n      \"target_node\": \"FGFR2\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF10\",\n      \"target_node\": \"FGFR3\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF10\",\n      \"target_node\": \"FGFR4\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF12\",\n      \"target_node\": \"FGFR1\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF12\",\n      \"target_node\": \"FGFR2\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF12\",\n      \"target_node\": \"FGFR3\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF12\",\n      \"target_node\": \"FGFR4\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF13\",\n      \"target_node\": \"FGFR1\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF13\",\n      \"target_node\": \"FGFR2\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF13\",\n      \"target_node\": \"FGFR3\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF13\",\n      \"target_node\": \"FGFR4\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF19\",\n      \"target_node\": \"FGFR1\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF19\",\n      \"target_node\": \"FGFR2\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF19\",\n      \"target_node\": \"FGFR3\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF19\",\n      \"target_node\": \"FGFR4\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF23\",\n      \"target_node\": \"FGFR1\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF23\",\n      \"target_node\": \"FGFR2\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF23\",\n      \"target_node\": \"FGFR3\",\n      \"action\": \"stimulation\"\n    },\n    {\n      \"source_node\": \"FGF23\",\n      \"target_node\": \"FGFR4\",\n      \"action\": \"stimulation\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1290,
+    "prompt_tokens": 7103,
+    "total_tokens": 8393,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 6912
+    },
+    "prompt_cache_hit_tokens": 6912,
+    "prompt_cache_miss_tokens": 191
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 40,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 4.42,
+  "interacciones": [
+    {
+      "source_node": "FGF5",
+      "target_node": "FGFR1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF5",
+      "target_node": "FGFR2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF5",
+      "target_node": "FGFR3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF5",
+      "target_node": "FGFR4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF6",
+      "target_node": "FGFR1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF6",
+      "target_node": "FGFR2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF6",
+      "target_node": "FGFR3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF6",
+      "target_node": "FGFR4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF7",
+      "target_node": "FGFR1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF7",
+      "target_node": "FGFR2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF7",
+      "target_node": "FGFR3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF7",
+      "target_node": "FGFR4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF8",
+      "target_node": "FGFR1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF8",
+      "target_node": "FGFR2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF8",
+      "target_node": "FGFR3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF8",
+      "target_node": "FGFR4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF9",
+      "target_node": "FGFR1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF9",
+      "target_node": "FGFR2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF9",
+      "target_node": "FGFR3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF9",
+      "target_node": "FGFR4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF10",
+      "target_node": "FGFR1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF10",
+      "target_node": "FGFR2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF10",
+      "target_node": "FGFR3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF10",
+      "target_node": "FGFR4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF12",
+      "target_node": "FGFR1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF12",
+      "target_node": "FGFR2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF12",
+      "target_node": "FGFR3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF12",
+      "target_node": "FGFR4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF13",
+      "target_node": "FGFR1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF13",
+      "target_node": "FGFR2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF13",
+      "target_node": "FGFR3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF13",
+      "target_node": "FGFR4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF19",
+      "target_node": "FGFR1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF19",
+      "target_node": "FGFR2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF19",
+      "target_node": "FGFR3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF19",
+      "target_node": "FGFR4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF23",
+      "target_node": "FGFR1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF23",
+      "target_node": "FGFR2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF23",
+      "target_node": "FGFR3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGF23",
+      "target_node": "FGFR4",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

@@ -1,0 +1,71 @@
+{
+  "timestamp_utc": "2026-10-26T01:55:47.962154+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 11,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\"interactions\": [{\"source_node\": \"TNFRSF11B\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"}, {\"source_node\": \"TNFRSF12A\", \"target_node\": \"MAPK8\", \"action\": \"stimulation\"}, {\"source_node\": \"TNFRSF13B\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"}, {\"source_node\": \"TNFRSF13C\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"}, {\"source_node\": \"TNFRSF17\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"}, {\"source_node\": \"TNFRSF18\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"}, {\"source_node\": \"TNFRSF19\", \"target_node\": \"MAP3K14\", \"action\": \"stimulation\"}]}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 206,
+    "prompt_tokens": 9099,
+    "total_tokens": 9305,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 8960
+    },
+    "prompt_cache_hit_tokens": 8960,
+    "prompt_cache_miss_tokens": 139
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 7,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 1.76,
+  "interacciones": [
+    {
+      "source_node": "TNFRSF11B",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF12A",
+      "target_node": "MAPK8",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF13B",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF13C",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF17",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF18",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "TNFRSF19",
+      "target_node": "MAP3K14",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

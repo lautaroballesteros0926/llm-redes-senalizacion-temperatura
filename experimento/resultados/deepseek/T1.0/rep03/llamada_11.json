@@ -1,0 +1,206 @@
+{
+  "timestamp_utc": "2026-10-26T01:52:00.197778+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 11,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\n  \"interactions\": [\n    {\"source_node\": \"cyclic AMP\", \"target_node\": \"PRKACA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"cyclic AMP\", \"target_node\": \"PRKACB\", \"action\": \"stimulation\"},\n    {\"source_node\": \"cyclic AMP\", \"target_node\": \"PRKACG\", \"action\": \"stimulation\"},\n    {\"source_node\": \"cyclic AMP\", \"target_node\": \"PDPK1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PPP3CA\", \"target_node\": \"NFAT5\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PPP3CB\", \"target_node\": \"NFAT5\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PPP3CC\", \"target_node\": \"NFAT5\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Cell Area\", \"target_node\": \"PTK2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"FOS\", \"target_node\": \"AP1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"cyclic Guanosine Monophosphate\", \"target_node\": \"PRKG1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"JUN\", \"target_node\": \"AP1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"CREB1\", \"target_node\": \"NPPA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"CREB3\", \"target_node\": \"NPPB\", \"action\": \"stimulation\"},\n    {\"source_node\": \"CREB5\", \"target_node\": \"IL6\", \"action\": \"stimulation\"},\n    {\"source_node\": \"CTF1\", \"target_node\": \"IL6ST\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Diacylglycerol\", \"target_node\": \"PRKCE\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Diacylglycerol\", \"target_node\": \"PRKCG\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Diacylglycerol\", \"target_node\": \"PRKCH\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EGF\", \"target_node\": \"ERBB2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EGFR\", \"target_node\": \"PIK3CA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B1\", \"target_node\": \"EIF4E\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B2\", \"target_node\": \"EIF4E2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B3\", \"target_node\": \"EIF4E3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B4\", \"target_node\": \"EIF4E\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF2B5\", \"target_node\": \"EIF4E2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF4E\", \"target_node\": \"RPS6KB1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF4E2\", \"target_node\": \"RPS6KB1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"EIF4E3\", \"target_node\": \"RPS6KB1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"ELK1\", \"target_node\": \"SRF\", \"action\": \"stimulation\"},\n    {\"source_node\": \"ERBB2\", \"target_node\": \"PIK3CA\", \"action\": \"stimulation\"},\n    {\"source_node\": \"ERBB3\", \"target_node\": \"PIK3CB\", \"action\": \"stimulation\"},\n    {\"source_node\": \"ERBB4\", \"target_node\": \"PIK3CD\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAPK1\", \"target_node\": \"ELK1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAPK3\", \"target_node\": \"FOS\", \"action\": \"stimulation\"}\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 922,
+    "prompt_tokens": 10541,
+    "total_tokens": 11463,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 10368
+    },
+    "prompt_cache_hit_tokens": 10368,
+    "prompt_cache_miss_tokens": 173
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 34,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 3.68,
+  "interacciones": [
+    {
+      "source_node": "cyclic AMP",
+      "target_node": "PRKACA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "cyclic AMP",
+      "target_node": "PRKACB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "cyclic AMP",
+      "target_node": "PRKACG",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "cyclic AMP",
+      "target_node": "PDPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PPP3CA",
+      "target_node": "NFAT5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PPP3CB",
+      "target_node": "NFAT5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PPP3CC",
+      "target_node": "NFAT5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Cell Area",
+      "target_node": "PTK2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FOS",
+      "target_node": "AP1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "cyclic Guanosine Monophosphate",
+      "target_node": "PRKG1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "JUN",
+      "target_node": "AP1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CREB1",
+      "target_node": "NPPA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CREB3",
+      "target_node": "NPPB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CREB5",
+      "target_node": "IL6",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CTF1",
+      "target_node": "IL6ST",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Diacylglycerol",
+      "target_node": "PRKCE",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Diacylglycerol",
+      "target_node": "PRKCG",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Diacylglycerol",
+      "target_node": "PRKCH",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EGF",
+      "target_node": "ERBB2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EGFR",
+      "target_node": "PIK3CA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B1",
+      "target_node": "EIF4E",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B2",
+      "target_node": "EIF4E2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B3",
+      "target_node": "EIF4E3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B4",
+      "target_node": "EIF4E",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF2B5",
+      "target_node": "EIF4E2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF4E",
+      "target_node": "RPS6KB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF4E2",
+      "target_node": "RPS6KB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "EIF4E3",
+      "target_node": "RPS6KB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ELK1",
+      "target_node": "SRF",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB2",
+      "target_node": "PIK3CA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB3",
+      "target_node": "PIK3CB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ERBB4",
+      "target_node": "PIK3CD",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK1",
+      "target_node": "ELK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK3",
+      "target_node": "FOS",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

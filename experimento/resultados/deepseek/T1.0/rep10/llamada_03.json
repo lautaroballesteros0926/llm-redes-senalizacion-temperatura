@@ -1,0 +1,371 @@
+{
+  "timestamp_utc": "2026-10-26T01:58:49.458743+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 3,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\"interactions\": [{\"source_node\": \"MYH7\", \"target_node\": \"NPPB\", \"action\": \"stimulation\"}, {\"source_node\": \"MYH7\", \"target_node\": \"Brain Natriuretic Peptide Input\", \"action\": \"stimulation\"}, {\"source_node\": \"GATA4\", \"target_node\": \"MYH7\", \"action\": \"stimulation\"}, {\"source_node\": \"Stretch\", \"target_node\": \"MYH7\", \"action\": \"stimulation\"}, {\"source_node\": \"NPPB\", \"target_node\": \"Brain Natriuretic Peptide Input\", \"action\": \"stimulation\"}, {\"source_node\": \"Brain Natriuretic Peptide Input\", \"target_node\": \"NPR1\", \"action\": \"stimulation\"}, {\"source_node\": \"NPR1\", \"target_node\": \"cyclic Guanosine Monophosphate\", \"action\": \"stimulation\"}, {\"source_node\": \"Stretch\", \"target_node\": \"NPPB\", \"action\": \"stimulation\"}, {\"source_node\": \"Calcium \", \"target_node\": \"CALM1\", \"action\": \"stimulation\"}, {\"source_node\": \"Calcium \", \"target_node\": \"CALM2\", \"action\": \"stimulation\"}, {\"source_node\": \"Calcium \", \"target_node\": \"CALM3\", \"action\": \"stimulation\"}, {\"source_node\": \"Calcium \", \"target_node\": \"CAMK2A\", \"action\": \"stimulation\"}, {\"source_node\": \"Calcium \", \"target_node\": \"CAMK2B\", \"action\": \"stimulation\"}, {\"source_node\": \"Calcium \", \"target_node\": \"CAMK2G\", \"action\": \"stimulation\"}, {\"source_node\": \"Calcium \", \"target_node\": \"CAMK2D\", \"action\": \"stimulation\"}, {\"source_node\": \"Inositol Triphosphate\", \"target_node\": \"Calcium \", \"action\": \"stimulation\"}, {\"source_node\": \"Calcium \", \"target_node\": \"PPP3CA\", \"action\": \"stimulation\"}, {\"source_node\": \"Calcium \", \"target_node\": \"PPP3CB\", \"action\": \"stimulation\"}, {\"source_node\": \"Calcium \", \"target_node\": \"PPP3CC\", \"action\": \"stimulation\"}, {\"source_node\": \"CALM1\", \"target_node\": \"CAMK2A\", \"action\": \"stimulation\"}, {\"source_node\": \"CALM1\", \"target_node\": \"CAMK2B\", \"action\": \"stimulation\"}, {\"source_node\": \"CALM1\", \"target_node\": \"CAMK2G\", \"action\": \"stimulation\"}, {\"source_node\": \"CALM1\", \"target_node\": \"CAMK2D\", \"action\": \"stimulation\"}, {\"source_node\": \"CALM1\", \"target_node\": \"PPP3CA\", \"action\": \"stimulation\"}, {\"source_node\": \"CALM2\", \"target_node\": \"CAMK2A\", \"action\": \"stimulation\"}, {\"source_node\": \"CALM2\", \"target_node\": \"CAMK2B\", \"action\": \"stimulation\"}, {\"source_node\": \"CALM2\", \"target_node\": \"CAMK2G\", \"action\": \"stimulation\"}, {\"source_node\": \"CALM2\", \"target_node\": \"CAMK2D\", \"action\": \"stimulation\"}, {\"source_node\": \"CALM2\", \"target_node\": \"PPP3CB\", \"action\": \"stimulation\"}, {\"source_node\": \"CALM3\", \"target_node\": \"CAMK2A\", \"action\": \"stimulation\"}, {\"source_node\": \"CALM3\", \"target_node\": \"CAMK2B\", \"action\": \"stimulation\"}, {\"source_node\": \"CALM3\", \"target_node\": \"CAMK2G\", \"action\": \"stimulation\"}, {\"source_node\": \"CALM3\", \"target_node\": \"CAMK2D\", \"action\": \"stimulation\"}, {\"source_node\": \"CALM3\", \"target_node\": \"PPP3CC\", \"action\": \"stimulation\"}, {\"source_node\": \"CAMK2A\", \"target_node\": \"HDAC4\", \"action\": \"inhibition\"}, {\"source_node\": \"CAMK2A\", \"target_node\": \"HDAC5\", \"action\": \"inhibition\"}, {\"source_node\": \"CAMK2A\", \"target_node\": \"HDAC7\", \"action\": \"inhibition\"}, {\"source_node\": \"CAMK2A\", \"target_node\": \"HDAC9\", \"action\": \"inhibition\"}, {\"source_node\": \"CAMK2A\", \"target_node\": \"CREB1\", \"action\": \"stimulation\"}, {\"source_node\": \"CAMK2A\", \"target_node\": \"MEF2A\", \"action\": \"stimulation\"}, {\"source_node\": \"CAMK2A\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"}, {\"source_node\": \"CAMK2B\", \"target_node\": \"HDAC4\", \"action\": \"inhibition\"}, {\"source_node\": \"CAMK2B\", \"target_node\": \"HDAC5\", \"action\": \"inhibition\"}, {\"source_node\": \"CAMK2B\", \"target_node\": \"CREB1\", \"action\": \"stimulation\"}, {\"source_node\": \"CAMK2B\", \"target_node\": \"MEF2C\", \"action\": \"stimulation\"}, {\"source_node\": \"CAMK2G\", \"target_node\": \"HDAC4\", \"action\": \"inhibition\"}, {\"source_node\": \"CAMK2G\", \"target_node\": \"HDAC5\", \"action\": \"inhibition\"}, {\"source_node\": \"CAMK2G\", \"target_node\": \"CREB1\", \"action\": \"stimulation\"}, {\"source_node\": \"CAMK2G\", \"target_node\": \"MEF2D\", \"action\": \"stimulation\"}, {\"source_node\": \"CAMK2D\", \"target_node\": \"HDAC4\", \"action\": \"inhibition\"}, {\"source_node\": \"CAMK2D\", \"target_node\": \"HDAC5\", \"action\": \"inhibition\"}, {\"source_node\": \"CAMK2D\", \"target_node\": \"CREB1\", \"action\": \"stimulation\"}, {\"source_node\": \"CAMK2D\", \"target_node\": \"MEF2A\", \"action\": \"stimulation\"}, {\"source_node\": \"CAMK2D\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"}, {\"source_node\": \"CAMK2D\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"}, {\"source_node\": \"cyclic AMP\", \"target_node\": \"PRKACA\", \"action\": \"stimulation\"}, {\"source_node\": \"cyclic AMP\", \"target_node\": \"PRKACB\", \"action\": \"stimulation\"}, {\"source_node\": \"cyclic AMP\", \"target_node\": \"PRKACG\", \"action\": \"stimulation\"}, {\"source_node\": \"PPP3CA\", \"target_node\": \"NFAT5\", \"action\": \"stimulation\"}, {\"source_node\": \"PPP3CA\", \"target_node\": \"MEF2A\", \"action\": \"stimulation\"}, {\"source_node\": \"PPP3CA\", \"target_node\": \"MEF2C\", \"action\": \"stimulation\"}, {\"source_node\": \"PPP3CB\", \"target_node\": \"NFAT5\", \"action\": \"stimulation\"}, {\"source_node\": \"PPP3CB\", \"target_node\": \"MEF2A\", \"action\": \"stimulation\"}, {\"source_node\": \"PPP3CB\", \"target_node\": \"MEF2C\", \"action\": \"stimulation\"}, {\"source_node\": \"PPP3CC\", \"target_node\": \"NFAT5\", \"action\": \"stimulation\"}, {\"source_node\": \"PPP3CC\", \"target_node\": \"MEF2A\", \"action\": \"stimulation\"}, {\"source_node\": \"PPP3CC\", \"target_node\": \"MEF2C\", \"action\": \"stimulation\"}]}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1731,
+    "prompt_tokens": 4875,
+    "total_tokens": 6606,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 4736
+    },
+    "prompt_cache_hit_tokens": 4736,
+    "prompt_cache_miss_tokens": 139
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 67,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 5.65,
+  "interacciones": [
+    {
+      "source_node": "MYH7",
+      "target_node": "NPPB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MYH7",
+      "target_node": "Brain Natriuretic Peptide Input",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GATA4",
+      "target_node": "MYH7",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Stretch",
+      "target_node": "MYH7",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NPPB",
+      "target_node": "Brain Natriuretic Peptide Input",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Brain Natriuretic Peptide Input",
+      "target_node": "NPR1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NPR1",
+      "target_node": "cyclic Guanosine Monophosphate",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Stretch",
+      "target_node": "NPPB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Calcium ",
+      "target_node": "CALM1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Calcium ",
+      "target_node": "CALM2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Calcium ",
+      "target_node": "CALM3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Calcium ",
+      "target_node": "CAMK2A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Calcium ",
+      "target_node": "CAMK2B",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Calcium ",
+      "target_node": "CAMK2G",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Calcium ",
+      "target_node": "CAMK2D",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Inositol Triphosphate",
+      "target_node": "Calcium ",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Calcium ",
+      "target_node": "PPP3CA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Calcium ",
+      "target_node": "PPP3CB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Calcium ",
+      "target_node": "PPP3CC",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CALM1",
+      "target_node": "CAMK2A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CALM1",
+      "target_node": "CAMK2B",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CALM1",
+      "target_node": "CAMK2G",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CALM1",
+      "target_node": "CAMK2D",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CALM1",
+      "target_node": "PPP3CA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CALM2",
+      "target_node": "CAMK2A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CALM2",
+      "target_node": "CAMK2B",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CALM2",
+      "target_node": "CAMK2G",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CALM2",
+      "target_node": "CAMK2D",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CALM2",
+      "target_node": "PPP3CB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CALM3",
+      "target_node": "CAMK2A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CALM3",
+      "target_node": "CAMK2B",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CALM3",
+      "target_node": "CAMK2G",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CALM3",
+      "target_node": "CAMK2D",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CALM3",
+      "target_node": "PPP3CC",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CAMK2A",
+      "target_node": "HDAC4",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "CAMK2A",
+      "target_node": "HDAC5",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "CAMK2A",
+      "target_node": "HDAC7",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "CAMK2A",
+      "target_node": "HDAC9",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "CAMK2A",
+      "target_node": "CREB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CAMK2A",
+      "target_node": "MEF2A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CAMK2A",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CAMK2B",
+      "target_node": "HDAC4",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "CAMK2B",
+      "target_node": "HDAC5",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "CAMK2B",
+      "target_node": "CREB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CAMK2B",
+      "target_node": "MEF2C",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CAMK2G",
+      "target_node": "HDAC4",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "CAMK2G",
+      "target_node": "HDAC5",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "CAMK2G",
+      "target_node": "CREB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CAMK2G",
+      "target_node": "MEF2D",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CAMK2D",
+      "target_node": "HDAC4",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "CAMK2D",
+      "target_node": "HDAC5",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "CAMK2D",
+      "target_node": "CREB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CAMK2D",
+      "target_node": "MEF2A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CAMK2D",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "CAMK2D",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "cyclic AMP",
+      "target_node": "PRKACA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "cyclic AMP",
+      "target_node": "PRKACB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "cyclic AMP",
+      "target_node": "PRKACG",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PPP3CA",
+      "target_node": "NFAT5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PPP3CA",
+      "target_node": "MEF2A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PPP3CA",
+      "target_node": "MEF2C",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PPP3CB",
+      "target_node": "NFAT5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PPP3CB",
+      "target_node": "MEF2A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PPP3CB",
+      "target_node": "MEF2C",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PPP3CC",
+      "target_node": "NFAT5",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PPP3CC",
+      "target_node": "MEF2A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PPP3CC",
+      "target_node": "MEF2C",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

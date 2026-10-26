@@ -1,0 +1,166 @@
+{
+  "timestamp_utc": "2026-10-26T01:57:25.531139+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 9,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\n  \"interactions\": [\n    {\"source_node\": \"MAP3K14\", \"target_node\": \"IKBKB\", \"action\": \"stimulation\"},\n    {\"source_node\": \"NOS3\", \"target_node\": \"GUCY1A2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"NOS3\", \"target_node\": \"GUCY1A3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"NOS3\", \"target_node\": \"GUCY1B3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"NRG1\", \"target_node\": \"ERBB2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"NRG1\", \"target_node\": \"ERBB3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"NRG1\", \"target_node\": \"ERBB4\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAPK14\", \"target_node\": \"ATF2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAPK11\", \"target_node\": \"ATF2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAPK12\", \"target_node\": \"MEF2A\", \"action\": \"stimulation\"},\n    {\"source_node\": \"MAPK13\", \"target_node\": \"MEF2C\", \"action\": \"stimulation\"},\n    {\"source_node\": \"RPS6KB1\", \"target_node\": \"EIF4E2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PDPK1\", \"target_node\": \"AKT1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PDPK1\", \"target_node\": \"AKT2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PDPK1\", \"target_node\": \"AKT3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Phenylephrine\", \"target_node\": \"ADRA1A\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Phenylephrine\", \"target_node\": \"ADRA1B\", \"action\": \"stimulation\"},\n    {\"source_node\": \"Phenylephrine\", \"target_node\": \"ADRA1D\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PIK3C2A\", \"target_node\": \"AKT1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PIK3C2B\", \"target_node\": \"AKT2\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PIK3C2G\", \"target_node\": \"AKT3\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PIK3C3\", \"target_node\": \"MTOR\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PIK3CA\", \"target_node\": \"PDPK1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PIK3CB\", \"target_node\": \"PDPK1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PIK3CD\", \"target_node\": \"PDPK1\", \"action\": \"stimulation\"},\n    {\"source_node\": \"PIK3CG\", \"target_node\": \"PDPK1\", \"action\": \"stimulation\"}\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 726,
+    "prompt_tokens": 8802,
+    "total_tokens": 9528,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 8576
+    },
+    "prompt_cache_hit_tokens": 8576,
+    "prompt_cache_miss_tokens": 226
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 26,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 2.81,
+  "interacciones": [
+    {
+      "source_node": "MAP3K14",
+      "target_node": "IKBKB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NOS3",
+      "target_node": "GUCY1A2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NOS3",
+      "target_node": "GUCY1A3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NOS3",
+      "target_node": "GUCY1B3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NRG1",
+      "target_node": "ERBB2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NRG1",
+      "target_node": "ERBB3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "NRG1",
+      "target_node": "ERBB4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK14",
+      "target_node": "ATF2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK11",
+      "target_node": "ATF2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK12",
+      "target_node": "MEF2A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK13",
+      "target_node": "MEF2C",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RPS6KB1",
+      "target_node": "EIF4E2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PDPK1",
+      "target_node": "AKT1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PDPK1",
+      "target_node": "AKT2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PDPK1",
+      "target_node": "AKT3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Phenylephrine",
+      "target_node": "ADRA1A",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Phenylephrine",
+      "target_node": "ADRA1B",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Phenylephrine",
+      "target_node": "ADRA1D",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3C2A",
+      "target_node": "AKT1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3C2B",
+      "target_node": "AKT2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3C2G",
+      "target_node": "AKT3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3C3",
+      "target_node": "MTOR",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3CA",
+      "target_node": "PDPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3CB",
+      "target_node": "PDPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3CD",
+      "target_node": "PDPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PIK3CG",
+      "target_node": "PDPK1",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

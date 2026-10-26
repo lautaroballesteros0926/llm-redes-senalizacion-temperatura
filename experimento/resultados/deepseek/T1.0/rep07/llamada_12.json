@@ -1,0 +1,106 @@
+{
+  "timestamp_utc": "2026-10-26T01:56:53.519319+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 12,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 5 nodes! Thank you",
+  "content": "{\"interactions\": [{\"source_node\": \"MAPK14\", \"target_node\": \"MAPKAPK2\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK14\", \"target_node\": \"MAPKAPK3\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK14\", \"target_node\": \"ATF2\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK14\", \"target_node\": \"FOS\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK14\", \"target_node\": \"JUN\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK11\", \"target_node\": \"MAPKAPK2\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK11\", \"target_node\": \"ATF2\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK11\", \"target_node\": \"FOS\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK12\", \"target_node\": \"MAPKAPK2\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK12\", \"target_node\": \"ATF2\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK12\", \"target_node\": \"FOS\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK13\", \"target_node\": \"MAPKAPK2\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK13\", \"target_node\": \"ATF2\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK13\", \"target_node\": \"FOS\", \"action\": \"stimulation\"}]}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 362,
+    "prompt_tokens": 18717,
+    "total_tokens": 19079,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 18560
+    },
+    "prompt_cache_hit_tokens": 18560,
+    "prompt_cache_miss_tokens": 157
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 14,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 2.28,
+  "interacciones": [
+    {
+      "source_node": "MAPK14",
+      "target_node": "MAPKAPK2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK14",
+      "target_node": "MAPKAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK14",
+      "target_node": "ATF2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK14",
+      "target_node": "FOS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK14",
+      "target_node": "JUN",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK11",
+      "target_node": "MAPKAPK2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK11",
+      "target_node": "ATF2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK11",
+      "target_node": "FOS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK12",
+      "target_node": "MAPKAPK2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK12",
+      "target_node": "ATF2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK12",
+      "target_node": "FOS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK13",
+      "target_node": "MAPKAPK2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK13",
+      "target_node": "ATF2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK13",
+      "target_node": "FOS",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

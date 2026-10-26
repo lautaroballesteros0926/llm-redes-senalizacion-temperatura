@@ -1,0 +1,176 @@
+{
+  "timestamp_utc": "2026-10-26T01:55:42.938518+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 9,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\"interactions\": [{\"source_node\": \"PRKD1\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"}, {\"source_node\": \"PRKD2\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"}, {\"source_node\": \"PRKD3\", \"target_node\": \"MAPK7\", \"action\": \"stimulation\"}, {\"source_node\": \"PRKG1\", \"target_node\": \"MEF2A\", \"action\": \"inhibition\"}, {\"source_node\": \"PRKG1\", \"target_node\": \"CREB1\", \"action\": \"inhibition\"}, {\"source_node\": \"PLCB1\", \"target_node\": \"Diacylglycerol\", \"action\": \"stimulation\"}, {\"source_node\": \"PLCB1\", \"target_node\": \"Inositol Triphosphate\", \"action\": \"stimulation\"}, {\"source_node\": \"PLCB3\", \"target_node\": \"Diacylglycerol\", \"action\": \"stimulation\"}, {\"source_node\": \"PLCB3\", \"target_node\": \"Inositol Triphosphate\", \"action\": \"stimulation\"}, {\"source_node\": \"PLCB4\", \"target_node\": \"Diacylglycerol\", \"action\": \"stimulation\"}, {\"source_node\": \"PLCG1\", \"target_node\": \"Inositol Triphosphate\", \"action\": \"stimulation\"}, {\"source_node\": \"RAC1\", \"target_node\": \"MAPK8\", \"action\": \"stimulation\"}, {\"source_node\": \"RAF1\", \"target_node\": \"MAP2K1\", \"action\": \"stimulation\"}, {\"source_node\": \"Activated Raf1\", \"target_node\": \"MAP2K2\", \"action\": \"stimulation\"}, {\"source_node\": \"HRAS\", \"target_node\": \"RAF1\", \"action\": \"stimulation\"}, {\"source_node\": \"KRAS\", \"target_node\": \"RAF1\", \"action\": \"stimulation\"}, {\"source_node\": \"RHO\", \"target_node\": \"RHOA\", \"action\": \"stimulation\"}, {\"source_node\": \"RHOA\", \"target_node\": \"SRF\", \"action\": \"stimulation\"}, {\"source_node\": \"RHOB\", \"target_node\": \"SRF\", \"action\": \"stimulation\"}, {\"source_node\": \"ACTA1\", \"target_node\": \"SRF\", \"action\": \"stimulation\"}, {\"source_node\": \"ACTA2\", \"target_node\": \"SRF\", \"action\": \"stimulation\"}, {\"source_node\": \"ATP2A3\", \"target_node\": \"Calcium \", \"action\": \"stimulation\"}, {\"source_node\": \"GUCY1B3\", \"target_node\": \"cyclic Guanosine Monophosphate\", \"action\": \"stimulation\"}, {\"source_node\": \"GUCY1A2\", \"target_node\": \"cyclic Guanosine Monophosphate\", \"action\": \"stimulation\"}, {\"source_node\": \"GUCY1A3\", \"target_node\": \"cyclic Guanosine Monophosphate\", \"action\": \"stimulation\"}, {\"source_node\": \"PTPN11\", \"target_node\": \"HRAS\", \"action\": \"stimulation\"}, {\"source_node\": \"SRF\", \"target_node\": \"FOS\", \"action\": \"stimulation\"}, {\"source_node\": \"SRF\", \"target_node\": \"ACTA2\", \"action\": \"stimulation\"}]}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 725,
+    "prompt_tokens": 7584,
+    "total_tokens": 8309,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 7424
+    },
+    "prompt_cache_hit_tokens": 7424,
+    "prompt_cache_miss_tokens": 160
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 28,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 2.94,
+  "interacciones": [
+    {
+      "source_node": "PRKD1",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD2",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKD3",
+      "target_node": "MAPK7",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKG1",
+      "target_node": "MEF2A",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "PRKG1",
+      "target_node": "CREB1",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "PLCB1",
+      "target_node": "Diacylglycerol",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCB1",
+      "target_node": "Inositol Triphosphate",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCB3",
+      "target_node": "Diacylglycerol",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCB3",
+      "target_node": "Inositol Triphosphate",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCB4",
+      "target_node": "Diacylglycerol",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PLCG1",
+      "target_node": "Inositol Triphosphate",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RAC1",
+      "target_node": "MAPK8",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RAF1",
+      "target_node": "MAP2K1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "Activated Raf1",
+      "target_node": "MAP2K2",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "HRAS",
+      "target_node": "RAF1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "KRAS",
+      "target_node": "RAF1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RHO",
+      "target_node": "RHOA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RHOA",
+      "target_node": "SRF",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "RHOB",
+      "target_node": "SRF",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ACTA1",
+      "target_node": "SRF",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ACTA2",
+      "target_node": "SRF",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "ATP2A3",
+      "target_node": "Calcium ",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GUCY1B3",
+      "target_node": "cyclic Guanosine Monophosphate",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GUCY1A2",
+      "target_node": "cyclic Guanosine Monophosphate",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GUCY1A3",
+      "target_node": "cyclic Guanosine Monophosphate",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PTPN11",
+      "target_node": "HRAS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "SRF",
+      "target_node": "FOS",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "SRF",
+      "target_node": "ACTA2",
+      "action": "stimulation"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

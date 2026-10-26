@@ -1,0 +1,291 @@
+{
+  "timestamp_utc": "2026-10-26T01:59:14.224927+00:00",
+  "modelo": "deepseek-flash",
+  "temperatura_enviada": 1.0,
+  "llamada": 8,
+  "intento": 1,
+  "max_tokens_usado": 4000,
+  "prompt_usuario": "That looks great! Please do the same operation for the next 20 nodes! Thank you",
+  "content": "{\"interactions\": [{\"source_node\": \"FGFR4\", \"target_node\": \"PLCG1\", \"action\": \"stimulation\"}, {\"source_node\": \"FGFR4\", \"target_node\": \"AKT1\", \"action\": \"stimulation\"}, {\"source_node\": \"FGFR4\", \"target_node\": \"STAT3\", \"action\": \"stimulation\"}, {\"source_node\": \"FOXO1\", \"target_node\": \"NPPA\", \"action\": \"inhibition\"}, {\"source_node\": \"FOXO1\", \"target_node\": \"NPPB\", \"action\": \"inhibition\"}, {\"source_node\": \"FOXO1\", \"target_node\": \"MYH7\", \"action\": \"inhibition\"}, {\"source_node\": \"AKT1\", \"target_node\": \"FOXO1\", \"action\": \"inhibition\"}, {\"source_node\": \"FOXO3\", \"target_node\": \"NPPA\", \"action\": \"inhibition\"}, {\"source_node\": \"FOXO3\", \"target_node\": \"NPPB\", \"action\": \"inhibition\"}, {\"source_node\": \"FOXO3\", \"target_node\": \"MYH7\", \"action\": \"inhibition\"}, {\"source_node\": \"AKT1\", \"target_node\": \"FOXO3\", \"action\": \"inhibition\"}, {\"source_node\": \"FOXO4\", \"target_node\": \"NPPA\", \"action\": \"inhibition\"}, {\"source_node\": \"FOXO4\", \"target_node\": \"NPPB\", \"action\": \"inhibition\"}, {\"source_node\": \"AKT1\", \"target_node\": \"FOXO4\", \"action\": \"inhibition\"}, {\"source_node\": \"GNAQ\", \"target_node\": \"PLCB1\", \"action\": \"stimulation\"}, {\"source_node\": \"GNAQ\", \"target_node\": \"PLCB3\", \"action\": \"stimulation\"}, {\"source_node\": \"GNAQ\", \"target_node\": \"PLCB4\", \"action\": \"stimulation\"}, {\"source_node\": \"GNAQ\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"}, {\"source_node\": \"GNAQ\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"}, {\"source_node\": \"GNAQ\", \"target_node\": \"RHOA\", \"action\": \"stimulation\"}, {\"source_node\": \"GNA11\", \"target_node\": \"PLCB1\", \"action\": \"stimulation\"}, {\"source_node\": \"GNA11\", \"target_node\": \"PLCB3\", \"action\": \"stimulation\"}, {\"source_node\": \"GNA11\", \"target_node\": \"PLCB4\", \"action\": \"stimulation\"}, {\"source_node\": \"GNA11\", \"target_node\": \"MAPK1\", \"action\": \"stimulation\"}, {\"source_node\": \"GNA11\", \"target_node\": \"MAPK3\", \"action\": \"stimulation\"}, {\"source_node\": \"GNA11\", \"target_node\": \"RHOA\", \"action\": \"stimulation\"}, {\"source_node\": \"GATA4\", \"target_node\": \"NPPA\", \"action\": \"stimulation\"}, {\"source_node\": \"GATA4\", \"target_node\": \"NPPB\", \"action\": \"stimulation\"}, {\"source_node\": \"GATA4\", \"target_node\": \"MYH6\", \"action\": \"stimulation\"}, {\"source_node\": \"GATA4\", \"target_node\": \"MYH7\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK1\", \"target_node\": \"GATA4\", \"action\": \"stimulation\"}, {\"source_node\": \"MAPK3\", \"target_node\": \"GATA4\", \"action\": \"stimulation\"}, {\"source_node\": \"PRKCA\", \"target_node\": \"GATA4\", \"action\": \"stimulation\"}, {\"source_node\": \"GNB1\", \"target_node\": \"ADCY5\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB1\", \"target_node\": \"ADCY6\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB1\", \"target_node\": \"ADCY2\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB1\", \"target_node\": \"ADCY8\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB2\", \"target_node\": \"ADCY5\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB2\", \"target_node\": \"ADCY6\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB2\", \"target_node\": \"ADCY2\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB2\", \"target_node\": \"ADCY8\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB3\", \"target_node\": \"ADCY5\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB3\", \"target_node\": \"ADCY6\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB3\", \"target_node\": \"ADCY2\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB3\", \"target_node\": \"ADCY8\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB4\", \"target_node\": \"ADCY5\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB4\", \"target_node\": \"ADCY6\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB4\", \"target_node\": \"ADCY2\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB5\", \"target_node\": \"ADCY5\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB5\", \"target_node\": \"ADCY6\", \"action\": \"inhibition\"}, {\"source_node\": \"GNB5\", \"target_node\": \"ADCY8\", \"action\": \"inhibition\"}]}",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 1279,
+    "prompt_tokens": 12285,
+    "total_tokens": 13564,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 12032
+    },
+    "prompt_cache_hit_tokens": 12032,
+    "prompt_cache_miss_tokens": 253
+  },
+  "headers_limite": {},
+  "incidencias_api": [],
+  "hubo_razonamiento": false,
+  "error": null,
+  "n_interacciones": 51,
+  "n_descartadas": 0,
+  "normalizada": false,
+  "estado": "ok",
+  "segundos": 4.51,
+  "interacciones": [
+    {
+      "source_node": "FGFR4",
+      "target_node": "PLCG1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGFR4",
+      "target_node": "AKT1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FGFR4",
+      "target_node": "STAT3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "FOXO1",
+      "target_node": "NPPA",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "FOXO1",
+      "target_node": "NPPB",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "FOXO1",
+      "target_node": "MYH7",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "AKT1",
+      "target_node": "FOXO1",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "FOXO3",
+      "target_node": "NPPA",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "FOXO3",
+      "target_node": "NPPB",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "FOXO3",
+      "target_node": "MYH7",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "AKT1",
+      "target_node": "FOXO3",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "FOXO4",
+      "target_node": "NPPA",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "FOXO4",
+      "target_node": "NPPB",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "AKT1",
+      "target_node": "FOXO4",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNAQ",
+      "target_node": "PLCB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNAQ",
+      "target_node": "PLCB3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNAQ",
+      "target_node": "PLCB4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNAQ",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNAQ",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNAQ",
+      "target_node": "RHOA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNA11",
+      "target_node": "PLCB1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNA11",
+      "target_node": "PLCB3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNA11",
+      "target_node": "PLCB4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNA11",
+      "target_node": "MAPK1",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNA11",
+      "target_node": "MAPK3",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNA11",
+      "target_node": "RHOA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GATA4",
+      "target_node": "NPPA",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GATA4",
+      "target_node": "NPPB",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GATA4",
+      "target_node": "MYH6",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GATA4",
+      "target_node": "MYH7",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK1",
+      "target_node": "GATA4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "MAPK3",
+      "target_node": "GATA4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "PRKCA",
+      "target_node": "GATA4",
+      "action": "stimulation"
+    },
+    {
+      "source_node": "GNB1",
+      "target_node": "ADCY5",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB1",
+      "target_node": "ADCY6",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB1",
+      "target_node": "ADCY2",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB1",
+      "target_node": "ADCY8",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB2",
+      "target_node": "ADCY5",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB2",
+      "target_node": "ADCY6",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB2",
+      "target_node": "ADCY2",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB2",
+      "target_node": "ADCY8",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB3",
+      "target_node": "ADCY5",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB3",
+      "target_node": "ADCY6",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB3",
+      "target_node": "ADCY2",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB3",
+      "target_node": "ADCY8",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB4",
+      "target_node": "ADCY5",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB4",
+      "target_node": "ADCY6",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB4",
+      "target_node": "ADCY2",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB5",
+      "target_node": "ADCY5",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB5",
+      "target_node": "ADCY6",
+      "action": "inhibition"
+    },
+    {
+      "source_node": "GNB5",
+      "target_node": "ADCY8",
+      "action": "inhibition"
+    }
+  ],
+  "reutilizada": false,
+  "intentos_previos": []
+}

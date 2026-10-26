@@ -1,0 +1,4 @@
+temperatura,respuestas_totales,ok,vacias_0_interacciones,sin_contenido,cortadas_por_limite_de_tokens,malformadas_otras,rechazadas,llamadas,reintentos,incidencias_api_429_5xx,interacciones_descartadas,forma_alternativa,llamadas_que_necesitaron_16000_tokens,con_razonamiento,tokens_entrada,tokens_salida
+0.0,40,36,0,0,4,0,0,36,4,0,0,0,4,0,656250,88529
+1.0,120,120,0,0,0,0,0,120,0,0,0,0,0,0,984734,128833
+total,160,156,0,0,4,0,0,156,4,0,0,0,4,0,1640984,217362

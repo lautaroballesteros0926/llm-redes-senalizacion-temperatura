@@ -1,0 +1,163 @@
+[20:47:20] Modelo deepseek-flash | 225 genes | max_connections=14 | saldo inicial USD 1.95
+[20:47:21] T=1.0 rep01: ya completa, se salta
+[20:47:21] === T=0.0 rep01 (pasada 1) ===
+   llamada 1/12: ok, 111 interacciones, 4365 tokens
+   llamada 2/12: ok, 132 interacciones, 7848 tokens
+   llamada 3: cortada (finish=length, max_tokens=4000); intento 1/3
+   llamada 3/12: ok, 115 interacciones, 10976 tokens
+   llamada 4/12: ok, 142 interacciones, 14711 tokens
+   llamada 5/12: ok, 105 interacciones, 17496 tokens
+   llamada 6/12: ok, 90 interacciones, 19969 tokens
+   llamada 7/12: ok, 87 interacciones, 22342 tokens
+   llamada 8/12: ok, 118 interacciones, 25458 tokens
+   llamada 9/12: ok, 86 interacciones, 27719 tokens
+   llamada 10/12: ok, 78 interacciones, 29838 tokens
+   llamada 11/12: ok, 46 interacciones, 31175 tokens
+   llamada 12/12: ok, 13 interacciones, 31585 tokens
+[20:49:09] T=0.0 rep01: COMPLETA, 1123 interacciones, 108s, saldo USD 1.93
+[20:49:10] T=1.0 rep02: ya completa, se salta
+[20:49:10] === T=0.0 rep02 (pasada 1) ===
+   llamada 1/12: ok, 149 interacciones, 5363 tokens
+   llamada 2/12: ok, 125 interacciones, 8654 tokens
+   llamada 3/12: ok, 128 interacciones, 12126 tokens
+   llamada 4: cortada (finish=length, max_tokens=4000); intento 1/3
+   llamada 4/12: ok, 179 interacciones, 16829 tokens
+   llamada 5/12: ok, 102 interacciones, 19568 tokens
+   llamada 6/12: ok, 92 interacciones, 22090 tokens
+   llamada 7: cortada (finish=length, max_tokens=4000); intento 1/3
+   llamada 7/12: ok, 161 interacciones, 26300 tokens
+   llamada 8/12: ok, 133 interacciones, 29968 tokens
+   llamada 9/12: ok, 50 interacciones, 31428 tokens
+   llamada 10/12: ok, 50 interacciones, 32888 tokens
+   llamada 11/12: ok, 50 interacciones, 34348 tokens
+   llamada 12/12: ok, 50 interacciones, 35808 tokens
+[20:51:19] T=0.0 rep02: COMPLETA, 1269 interacciones, 130s, saldo USD 1.89
+[20:51:20] === T=1.0 rep03 (pasada 1) ===
+   llamada 1/12: ok, 50 interacciones, 2741 tokens
+   llamada 2/12: ok, 35 interacciones, 3709 tokens
+   llamada 3/12: ok, 26 interacciones, 4416 tokens
+   llamada 4/12: ok, 31 interacciones, 5267 tokens
+   llamada 5/12: ok, 31 interacciones, 6125 tokens
+   llamada 6/12: ok, 31 interacciones, 6997 tokens
+   llamada 7/12: ok, 30 interacciones, 7848 tokens
+   llamada 8/12: ok, 31 interacciones, 8709 tokens
+   llamada 9/12: ok, 30 interacciones, 9614 tokens
+   llamada 10/12: ok, 33 interacciones, 10519 tokens
+   llamada 11/12: ok, 34 interacciones, 11463 tokens
+   llamada 12/12: ok, 11 interacciones, 11783 tokens
+[20:52:02] T=1.0 rep03: COMPLETA, 373 interacciones, 42s, saldo USD 1.89
+[20:52:03] === T=0.0 rep03 (pasada 1) ===
+   llamada 1/12: ok, 111 interacciones, 4361 tokens
+   llamada 2: cortada (finish=length, max_tokens=4000); intento 1/3
+   llamada 2/12: ok, 168 interacciones, 8890 tokens
+   llamada 3/12: ok, 146 interacciones, 12733 tokens
+   llamada 4/12: ok, 107 interacciones, 15595 tokens
+   llamada 5/12: ok, 66 interacciones, 17419 tokens
+   llamada 6/12: ok, 94 interacciones, 19977 tokens
+   llamada 7/12: ok, 106 interacciones, 22862 tokens
+   llamada 8/12: ok, 21 interacciones, 23514 tokens
+   llamada 9/12: ok, 21 interacciones, 24166 tokens
+   llamada 10/12: ok, 21 interacciones, 24818 tokens
+   llamada 11/12: ok, 21 interacciones, 25470 tokens
+   llamada 12/12: ok, 21 interacciones, 26122 tokens
+[20:53:34] T=0.0 rep03: COMPLETA, 903 interacciones, 91s, saldo USD 1.84
+[20:53:34] === T=1.0 rep04 (pasada 1) ===
+   llamada 1/12: ok, 79 interacciones, 3432 tokens
+   llamada 2/12: ok, 62 interacciones, 5040 tokens
+   llamada 3/12: ok, 45 interacciones, 6196 tokens
+   llamada 4/12: ok, 48 interacciones, 7517 tokens
+   llamada 5/12: ok, 39 interacciones, 8522 tokens
+   llamada 6/12: ok, 40 interacciones, 9551 tokens
+   llamada 7/12: ok, 42 interacciones, 10636 tokens
+   llamada 8/12: ok, 42 interacciones, 11732 tokens
+   llamada 9/12: ok, 42 interacciones, 12822 tokens
+   llamada 10/12: ok, 38 interacciones, 13840 tokens
+   llamada 11/12: ok, 37 interacciones, 14828 tokens
+   llamada 12/12: ok, 20 interacciones, 15370 tokens
+[20:54:26] T=1.0 rep04: COMPLETA, 534 interacciones, 52s, saldo USD 1.82
+[20:54:27] === T=1.0 rep05 (pasada 1) ===
+   llamada 1/12: ok, 62 interacciones, 3006 tokens
+   llamada 2/12: ok, 43 interacciones, 4123 tokens
+   llamada 3/12: ok, 35 interacciones, 5041 tokens
+   llamada 4/12: ok, 43 interacciones, 6233 tokens
+   llamada 5/12: ok, 35 interacciones, 7142 tokens
+   llamada 6/12: ok, 37 interacciones, 8106 tokens
+   llamada 7/12: ok, 40 interacciones, 9143 tokens
+   llamada 8/12: ok, 39 interacciones, 10172 tokens
+   llamada 9/12: ok, 35 interacciones, 11116 tokens
+   llamada 10/12: ok, 38 interacciones, 12137 tokens
+   llamada 11/12: ok, 38 interacciones, 13169 tokens
+   llamada 12/12: ok, 17 interacciones, 13642 tokens
+[20:55:13] T=1.0 rep05: COMPLETA, 462 interacciones, 46s, saldo USD 1.82
+[20:55:13] === T=1.0 rep06 (pasada 1) ===
+   llamada 1/12: ok, 30 interacciones, 2180 tokens
+   llamada 2/12: ok, 33 interacciones, 3041 tokens
+   llamada 3/12: ok, 30 interacciones, 3834 tokens
+   llamada 4/12: ok, 30 interacciones, 4613 tokens
+   llamada 5/12: ok, 29 interacciones, 5379 tokens
+   llamada 6/12: ok, 25 interacciones, 6053 tokens
+   llamada 7/12: ok, 28 interacciones, 6803 tokens
+   llamada 8/12: ok, 28 interacciones, 7562 tokens
+   llamada 9/12: ok, 28 interacciones, 8309 tokens
+   llamada 10/12: ok, 28 interacciones, 9077 tokens
+   llamada 11/12: ok, 7 interacciones, 9305 tokens
+   llamada 12/12: ok, 5 interacciones, 9465 tokens
+[20:55:50] T=1.0 rep06: COMPLETA, 301 interacciones, 36s, saldo USD 1.80
+[20:55:50] === T=1.0 rep07 (pasada 1) ===
+   llamada 1/12: ok, 82 interacciones, 3512 tokens
+   llamada 2/12: ok, 123 interacciones, 6721 tokens
+   llamada 3/12: ok, 91 interacciones, 9020 tokens
+   llamada 4/12: ok, 58 interacciones, 10571 tokens
+   llamada 5/12: ok, 50 interacciones, 11855 tokens
+   llamada 6/12: ok, 45 interacciones, 13008 tokens
+   llamada 7/12: ok, 45 interacciones, 14156 tokens
+   llamada 8/12: ok, 45 interacciones, 15360 tokens
+   llamada 9/12: ok, 45 interacciones, 16530 tokens
+   llamada 10/12: ok, 39 interacciones, 17582 tokens
+   llamada 11/12: ok, 42 interacciones, 18695 tokens
+   llamada 12/12: ok, 14 interacciones, 19079 tokens
+[20:56:54] T=1.0 rep07: COMPLETA, 679 interacciones, 63s, saldo USD 1.77
+[20:56:54] === T=1.0 rep08 (pasada 1) ===
+   llamada 1/12: ok, 25 interacciones, 2089 tokens
+   llamada 2/12: ok, 40 interacciones, 3163 tokens
+   llamada 3/12: ok, 34 interacciones, 4092 tokens
+   llamada 4/12: ok, 33 interacciones, 4977 tokens
+   llamada 5/12: ok, 34 interacciones, 5907 tokens
+   llamada 6/12: ok, 34 interacciones, 6842 tokens
+   llamada 7/12: ok, 35 interacciones, 7840 tokens
+   llamada 8/12: ok, 34 interacciones, 8780 tokens
+   llamada 9/12: ok, 26 interacciones, 9528 tokens
+   llamada 10/12: ok, 20 interacciones, 10089 tokens
+   llamada 11/12: ok, 34 interacciones, 11051 tokens
+   llamada 12/12: ok, 11 interacciones, 11403 tokens
+[20:57:34] T=1.0 rep08: COMPLETA, 360 interacciones, 40s, saldo USD 1.75
+[20:57:35] === T=1.0 rep09 (pasada 1) ===
+   llamada 1/12: ok, 43 interacciones, 2818 tokens
+   llamada 2/12: ok, 44 interacciones, 4272 tokens
+   llamada 3/12: ok, 41 interacciones, 5641 tokens
+   llamada 4/12: ok, 44 interacciones, 7081 tokens
+   llamada 5/12: ok, 40 interacciones, 8393 tokens
+   llamada 6/12: ok, 42 interacciones, 9769 tokens
+   llamada 7/12: ok, 33 interacciones, 10886 tokens
+   llamada 8/12: ok, 39 interacciones, 12189 tokens
+   llamada 9/12: ok, 40 interacciones, 13534 tokens
+   llamada 10/12: ok, 33 interacciones, 14682 tokens
+   llamada 11/12: ok, 43 interacciones, 16098 tokens
+   llamada 12/12: ok, 50 interacciones, 17755 tokens
+[20:58:31] T=1.0 rep09: COMPLETA, 492 interacciones, 57s, saldo USD 1.74
+[20:58:32] === T=1.0 rep10 (pasada 1) ===
+   llamada 1/12: ok, 55 interacciones, 2840 tokens
+   llamada 2/12: ok, 79 interacciones, 4853 tokens
+   llamada 3/12: ok, 67 interacciones, 6606 tokens
+   llamada 4/12: ok, 76 interacciones, 8537 tokens
+   llamada 5/12: ok, 46 interacciones, 9824 tokens
+   llamada 6/12: ok, 44 interacciones, 10963 tokens
+   llamada 7/12: ok, 51 interacciones, 12263 tokens
+   llamada 8/12: ok, 51 interacciones, 13564 tokens
+   llamada 9/12: ok, 44 interacciones, 14730 tokens
+   llamada 10/12: ok, 42 interacciones, 15831 tokens
+   llamada 11/12: ok, 44 interacciones, 17029 tokens
+   llamada 12/12: ok, 20 interacciones, 17582 tokens
+[20:59:30] T=1.0 rep10: COMPLETA, 619 interacciones, 58s, saldo USD 1.71
+
+[20:59:31] FIN. Réplicas sin completar: ninguna | saldo final USD 1.71
